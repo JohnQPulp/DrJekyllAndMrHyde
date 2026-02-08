@@ -1,8 +1,8 @@
 *The Strange Case of Dr. Jekyll and Mr. Hyde* by Robert Louis Stevenson
-
+n:author=;t=author;b=title
 
 ## Story of the Door
-
+r=title
 
 Mr. Utterson the lawyer was a man of a rugged countenance that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary and yet somehow lovable.
 n:utterson=Mr. Utterson;e:utterson=serious;
@@ -623,7 +623,7 @@ For once more he saw before his mind’s eye, as clear as a transparency, the st
 s=none
 
 ## Dr. Jekyll Was Quite at Ease
-
+r=title
 
 A fortnight later, by excellent good fortune, the doctor gave one of his pleasant dinners to some five or six old cronies, all intelligent, reputable men and all judges of good wine; and Mr. Utterson so contrived that he remained behind after the others had departed.
 ;n:jekyll=Dr. Henry Jekyll;e:jekyll=happy;e:utterson=neutral
@@ -902,7 +902,7 @@ Only on one point were they agreed; and that was the haunting sense of unexpress
 
 
 ## Incident of the Letter
-
+r=title
 
 It was late in the afternoon, when Mr. Utterson found his way to Dr. Jekyll’s door, where he was at once admitted by Poole, and carried down by the kitchen offices and across a yard which had once been a garden, to the building which was indifferently known as the laboratory or the dissecting rooms.
 
@@ -1115,7 +1115,7 @@ And his blood ran cold in his veins.
 s=none;e:utterson=fearful
 
 ## Remarkable Incident of Dr. Lanyon
-
+r=title
 
 Time ran on; thousands of pounds were offered in reward, for the death of Sir Danvers was resented as a public injury; but Mr. Hyde had disappeared out of the ken of the police as though he had never existed.
 
@@ -1283,7 +1283,7 @@ Utterson became so used to the unvarying character of these reports, that he fel
 e:utterson=weary
 
 ## Incident at the Window
-
+r=title
 
 It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the bystreet; and that when they came in front of the door, both stopped to gaze on it.
 e:utterson=neutral;e:enfield=neutral;
@@ -1361,7 +1361,7 @@ But Mr. Enfield only nodded his head very seriously, and walked on once more in 
 s=none;e:enfield=serious
 
 ## The Last Night
-
+r=title
 
 Mr. Utterson was sitting by his fireside one evening after dinner, when he was surprised to receive a visit from Poole.
 
@@ -1916,7 +1916,7 @@ They went out, locking the door of the theatre behind them; and Utterson, once m
 s=none;e:utterson=contemplative
 
 ## Dr. Lanyon’s Narrative
-
+r=title
 
 On the ninth of January, now four days ago, I received by the evening delivery a registered envelope, addressed in the hand of my colleague and old school companion, Henry Jekyll.
 e:lanyon=neutral
@@ -2219,7 +2219,7 @@ Hastie Lanyon
 
 
 ## Henry Jekyll’s Full Statement of the Case
-
+r=title
 
 I was born in the year 18— to a large fortune, endowed besides with excellent parts, inclined by nature to industry, fond of the respect of the wise and good among my fellowmen, and thus, as might have been supposed, with every guarantee of an honourable and distinguished future.
 e:jekyll=serious
