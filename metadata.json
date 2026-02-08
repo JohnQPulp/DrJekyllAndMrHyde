@@ -1,0 +1,16 @@
+{
+  "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+  "shortTitle": "Dr. Jekyll and Mr. Hyde",
+  "author": "Robert Louis Stevenson",
+  "year": 1886,
+  "source": "https://standardebooks.org/ebooks/robert-louis-stevenson/the-strange-case-of-dr-jekyll-and-mr-hyde",
+  "words": 1,
+  "pulpDate": "2026-02-12",
+  "repo": "https://github.com/JohnQPulp/DrJekyllAndMrHyde",
+  "links": {
+    "Goodreads": "https://www.goodreads.com/book/show/51496.Dr_Jekyll_and_Mr_Hyde",
+    "Wikipedia": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
+  },
+  "blurb": "",
+  "blurb2": ""
+}
