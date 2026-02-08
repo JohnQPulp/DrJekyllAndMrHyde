@@ -14,7 +14,7 @@ He was austere with himself; drank gin when he was alone, to mortify a taste for
 e:utterson=serious
 
 But he had an approved tolerance for others; sometimes wondering, almost with envy, at the high pressure of spirits involved in their misdeeds; and in any extremity inclined to help rather than to reprove.
-;e:utterson=contemplative
+e:utterson=contemplative
 
 “I incline to Cain’s heresy,” he used to say quaintly: “I let my brother go to the devil in his own way.”
 s=utterson;e:utterson=smirking
@@ -101,7 +101,7 @@ e:enfield=wary
 
 
 “Well, the child was not much the worse, more frightened, according to the sawbones; and there you might have supposed would be an end to it. But there was one curious circumstance.”
-;e:enfield=thinking
+e:enfield=thinking
 
 “I had taken a loathing to my gentleman at first sight. So had the child’s family, which was only natural.”
 e:enfield=unhappy
@@ -182,7 +182,7 @@ s=utterson;e:utterson=wary
 s=enfield;e:enfield=serious
 
 “You start a question, and it’s like starting a stone. You sit quietly on the top of a hill; and away the stone goes, starting others; and presently some bland old bird (the last you would have thought of) is knocked on the head in his own back garden and the family have to change their name.”
-;e:enfield=contemplative
+e:enfield=contemplative
 
 “No, sir, I make it a rule of mine: the more it looks like Queer Street, the less I ask.”
 
@@ -197,7 +197,7 @@ s=enfield;e:enfield=thinking
 
 
 “There are three windows looking on the court on the first floor; none below; the windows are always shut but they’re clean. And then there is a chimney which is generally smoking; so somebody must live there. And yet it’s not so sure; for the buildings are so packed together about that court, that it’s hard to say where one ends and another begins.”
-;;;e:enfield=neutral
+e:enfield=neutral
 
 The pair walked on again for a while in silence; and then “Enfield,” said Mr. Utterson, “that’s a good rule of yours.”
 s=utterson;e:utterson=serious
@@ -362,7 +362,7 @@ Six o’clock struck on the bells of the church that was so conveniently near to
 
 
 Hitherto it had touched him on the intellectual side alone; but now his imagination also was engaged or rather enslaved; and as he lay and tossed in the gross darkness of the night and the curtained room, Mr. Enfield’s tale went by before his mind in a scroll of lighted pictures.
-;e:utterson=fearful
+e:utterson=fearful
 
 He would be aware of the great field of lamps of a nocturnal city; then of the figure of a man walking swiftly; then of a child running from the doctor’s; and then these met, and that human Juggernaut trod the child down and passed on regardless of her screams.
 
@@ -377,7 +377,7 @@ The figure in these two phases haunted the lawyer all night; and if at any time 
 
 
 And still the figure had no face by which he might know it; even in his dreams, it had no face, or one that baffled him and melted before his eyes; and thus it was that there sprang up and grew apace in the lawyer’s mind a singularly strong, almost an inordinate, curiosity to behold the features of the real Mr. Hyde.
-;;e:utterson=serious
+e:utterson=serious
 
 If he could but once set eyes on him, he thought the mystery would lighten and perhaps roll altogether away, as was the habit of mysterious things when well examined.
 
@@ -515,7 +515,7 @@ The problem he was thus debating as he walked, was one of a class that is rarely
 
 
 Mr. Hyde was pale and dwarfish, he gave an impression of deformity without any nameable malformation, he had a displeasing smile, he had borne himself to the lawyer with a sort of murderous mixture of timidity and boldness, and he spoke with a husky, whispering and somewhat broken voice; all these were points against him, but not all of these together could explain the hitherto unknown disgust, loathing and fear with which Mr. Utterson regarded him.
-;e:utterson=fearful
+e:utterson=fearful
 
 “There must be something else,” said the perplexed gentleman. “There *is* something more, if I could find a name for it.”
 s=utterson;e:utterson=thinking
@@ -626,7 +626,7 @@ s=none
 r=title
 
 A fortnight later, by excellent good fortune, the doctor gave one of his pleasant dinners to some five or six old cronies, all intelligent, reputable men and all judges of good wine; and Mr. Utterson so contrived that he remained behind after the others had departed.
-;n:jekyll=Dr. Henry Jekyll;e:jekyll=happy;e:utterson=neutral
+n:jekyll=Dr. Henry Jekyll;e:jekyll=happy;e:utterson=neutral
 
 This was no new arrangement, but a thing that had befallen many scores of times.
 
@@ -791,7 +791,7 @@ A purse and a gold watch were found upon the victim: but no cards or papers, exc
 
 
 This was brought to the lawyer the next morning, before he was out of bed; and he had no sooner seen it, and been told the circumstances, than he shot out a solemn lip.
-;e:utterson=serious
+e:utterson=serious
 
 “I shall say nothing till I have seen the body,” said he; “this may be very serious. Have the kindness to wait while I dress.”
 s=utterson
@@ -887,7 +887,7 @@ At this moment, however, the rooms bore every mark of having been recently and h
 
 
 From these embers the inspector disinterred the butt end of a green cheque book, which had resisted the action of the fire; the other half of the stick was found behind the door; and as this clinched his suspicions, the officer declared himself delighted.
-;;e:officer=happy
+e:officer=happy
 
 A visit to the bank, where several thousand pounds were found to be lying to the murderer’s credit, completed his gratification.
 
@@ -911,7 +911,7 @@ The doctor had bought the house from the heirs of a celebrated surgeon; and his 
 
 
 It was the first time that the lawyer had been received in that part of his friend’s quarters; and he eyed the dingy windowless structure with curiosity, and gazed round with a distasteful sense of strangeness as he crossed the theatre, once crowded with eager students and now lying gaunt and silent, the tables laden with chemical apparatus, the floor strewn with crates and littered with packing straw, and the light falling dimly through the foggy cupola.
-;e:utterson=serious
+e:utterson=serious
 
 At the further end, a flight of stairs mounted to a door covered with red baize; and through this, Mr. Utterson was at last received into the doctor’s cabinet.
 
@@ -920,7 +920,7 @@ It was a large room, fitted round with glass presses, furnished, among other thi
 
 
 The fire burned in the grate; a lamp was set lighted on the chimney shelf, for even in the houses the fog began to lie thickly; and there, close up to the warmth, sat Dr. Jekyll, looking deathly sick.
-;e:jekyll=weary
+e:jekyll=weary
 
 He did not rise to meet his visitor, but held out a cold hand and bade him welcome in a changed voice.
 
@@ -974,7 +974,7 @@ The letter was written in an odd, upright hand and signed “Edward Hyde”: and
 s=none
 
 The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.
-;e:utterson=neutral
+e:utterson=neutral
 
 “Have you the envelope?” he asked.
 s=utterson
@@ -1019,7 +1019,7 @@ The newsboys, as he went, were crying themselves hoarse along the footways: “S
 
 
 That was the funeral oration of one friend and client; and he could not help a certain apprehension lest the good name of another should be sucked down in the eddy of the scandal.
-;e:utterson=unhappy
+e:utterson=unhappy
 
 It was, at least, a ticklish decision that he had to make; and self-reliant as he was by habit, he began to cherish a longing for advice.
 
@@ -1040,7 +1040,7 @@ Insensibly the lawyer melted. There was no man from whom he kept fewer secrets t
 e:utterson=neutral
 
 Guest had often been on business to the doctor’s; he knew Poole; he could scarce have failed to hear of Mr. Hyde’s familiarity about the house; he might draw conclusions: was it not as well, then, that he should see a letter which put that mystery to rights?
-;;e:utterson=thinking
+e:utterson=thinking
 
 and above all since Guest, being a great student and critic of handwriting, would consider the step natural and obliging?
 
@@ -1313,7 +1313,7 @@ The court was very cool and a little damp, and full of premature twilight, altho
 s=none
 
 The middle one of the three windows was halfway open; and sitting close beside it, taking the air with an infinite sadness of mien, like some disconsolate prisoner, Utterson saw Dr. Jekyll.
-;e:jekyll=unhappy
+e:jekyll=unhappy
 
 “What! Jekyll!” he cried. “I trust you are better.”
 s=utterson;e:utterson=surprised
@@ -2012,7 +2012,7 @@ The tradesmen came while we were yet speaking; and we moved in a body to old Dr.
 
 
 The door was very strong, the lock excellent; the carpenter avowed he would have great trouble and have to do much damage, if force were to be used; and the locksmith was near despair.
-;e:lanyon=weary
+e:lanyon=weary
 
 But this last was a handy fellow, and after two hours’ work, the door stood open.
 
@@ -2051,7 +2051,7 @@ And even granting some impediment, why was this gentleman to be received by me i
 e:lanyon=suspicious
 
 The more I reflected, the more convinced I grew that I was dealing with a case of cerebral disease; and though I dismissed my servants to bed, I loaded an old revolver that I might be found in some posture of self-defence.
-;e:lanyon=serious
+e:lanyon=serious
 
 Twelve o’clock had scarce rung out over London, ere the knocker sounded very gently on the door.
 
@@ -2066,7 +2066,7 @@ He told me “yes” by a constrained gesture; and when I had bidden him enter, 
 s=none;e:hyde=nervous
 
 There was a policeman not far off, advancing with his bull’s eye open; and at the sight, I thought my visitor started and made greater haste.
-;e:hyde=fearful
+e:hyde=fearful
 
 These particulars struck me, I confess, disagreeably; and as I followed him into the bright light of the consulting room, I kept my hand ready on my weapon.
 e:lanyon=unhappy;e:lanyon=wary
@@ -2090,7 +2090,7 @@ Strange to relate, this ludicrous accoutrement was far from moving me to laughte
 
 
 Rather, as there was something abnormal and misbegotten in the very essence of the creature that now faced me﻿—something seizing, surprising and revolting﻿—this fresh disparity seemed but to fit in with and to reinforce it; so that to my interest in the man’s nature and character, there was added a curiosity as to his origin, his life, his fortune and status in the world.
-;e:lanyon=contemplative
+e:lanyon=contemplative
 
 These observations, though they have taken so great a space to be set down in, were yet the work of a few seconds.
 
