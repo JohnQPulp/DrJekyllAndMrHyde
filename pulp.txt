@@ -425,7 +425,7 @@ The lawyer, looking forth from the entry, could soon see what manner of man he h
 e:utterson=serious
 
 He was small and very plainly dressed, and the look of him, even at that distance, went somehow strongly against the watcher’s inclination.
-n:hyde=Mr. Hyde;e:hyde=neutral
+n:hyde=Edward Hyde;e:hyde=neutral
 
 But he made straight for the door, crossing the roadway to save time; and as he came, he drew a key from his pocket like one approaching home.
 ;
@@ -621,3 +621,111 @@ e:utterson=serious
 
 For once more he saw before his mind’s eye, as clear as a transparency, the strange clauses of the will.
 s=none
+
+## Dr. Jekyll Was Quite at Ease
+
+
+A fortnight later, by excellent good fortune, the doctor gave one of his pleasant dinners to some five or six old cronies, all intelligent, reputable men and all judges of good wine; and Mr. Utterson so contrived that he remained behind after the others had departed.
+;n:jekyll=Dr. Henry Jekyll;e:jekyll=happy;e:utterson=neutral
+
+This was no new arrangement, but a thing that had befallen many scores of times.
+
+
+Where Utterson was liked, he was liked well.
+
+
+Hosts loved to detain the dry lawyer, when the lighthearted and loose-tongued had already their foot on the threshold; they liked to sit a while in his unobtrusive company, practising for solitude, sobering their minds in the man’s rich silence after the expense and strain of gaiety.
+;
+
+To this rule, Dr. Jekyll was no exception; and as he now sat on the opposite side of the fire—a large, well-made, smooth-faced man of fifty, with something of a slyish cast perhaps, but every mark of capacity and kindness—you could see by his looks that he cherished for Mr. Utterson a sincere and warm affection.
+
+
+“I have been wanting to speak to you, Jekyll,” began the latter. “You know that will of yours?”
+s=utterson;e:utterson=serious
+
+A close observer might have gathered that the topic was distasteful; but the doctor carried it off gaily.
+s=none;e:jekyll=smirking
+
+“My poor Utterson,” said he, “you are unfortunate in such a client.”
+s=jekyll
+
+“I never saw a man so distressed as you were by my will; unless it were that hidebound pedant, Lanyon, at what he called my scientific heresies.”
+e:jekyll=annoyed
+
+“O, I know he’s a good fellow—you needn’t frown—an excellent fellow, and I always mean to see more of him; but a hidebound pedant for all that; an ignorant, blatant pedant.”
+e:jekyll=angry
+
+“I was never more disappointed in any man than Lanyon.”
+
+
+“You know I never approved of it,” pursued Utterson, ruthlessly disregarding the fresh topic.
+s=utterson;e:utterson=serious
+
+“My will? Yes, certainly, I know that,” said the doctor, a trifle sharply. “You have told me so.”
+s=jekyll;e:jekyll=annoyed
+
+“Well, I tell you so again,” continued the lawyer. “I have been learning something of young Hyde.”
+s=utterson;e:utterson=serious
+
+The large handsome face of Dr. Jekyll grew pale to the very lips, and there came a blackness about his eyes.
+s=none;e:jekyll=fearful
+
+“I do not care to hear more,” said he. “This is a matter I thought we had agreed to drop.”
+s=jekyll;e:jekyll=angry
+
+“What I heard was abominable,” said Utterson.
+s=utterson
+
+“It can make no change. You do not understand my position,” returned the doctor, with a certain incoherency of manner.
+s=jekyll;e:jekyll=nervous
+
+“I am painfully situated, Utterson; my position is a very strange—a very strange one.”
+e:jekyll=wary
+
+“It is one of those affairs that cannot be mended by talking.”
+
+
+“Jekyll,” said Utterson, “you know me: I am a man to be trusted.”
+s=utterson;e:utterson=serious
+
+“Make a clean breast of this in confidence; and I make no doubt I can get you out of it.”
+
+
+“My good Utterson,” said the doctor, “this is very good of you, this is downright good of you, and I cannot find words to thank you in.”
+s=jekyll;e:jekyll=happy
+
+“I believe you fully; I would trust you before any man alive, aye, before myself, if I could make the choice; but indeed it isn’t what you fancy; it is not so bad as that; and just to put your good heart at rest, I will tell you one thing: the moment I choose, I can be rid of Mr. Hyde.”
+e:jekyll=serious;e:jekyll=smirking
+
+“I give you my hand upon that; and I thank you again and again; and I will just add one little word, Utterson, that I’m sure you’ll take in good part: this is a private matter, and I beg of you to let it sleep.”
+e:jekyll=neutral
+
+Utterson reflected a little, looking in the fire.
+s=none;e:utterson=thinking
+
+“I have no doubt you are perfectly right,” he said at last, getting to his feet.
+s=utterson;e:utterson=neutral
+
+“Well, but since we have touched upon this business, and for the last time I hope,” continued the doctor, “there is one point I should like you to understand.”
+s=jekyll;e:jekyll=serious
+
+“I have really a very great interest in poor Hyde. I know you have seen him; he told me so; and I fear he was rude.”
+
+
+“But I do sincerely take a great, a very great interest in that young man; and if I am taken away, Utterson, I wish you to promise me that you will bear with him and get his rights for him.”
+
+
+“I think you would, if you knew all; and it would be a weight off my mind if you would promise.”
+e:jekyll=wary
+
+“I can’t pretend that I shall ever like him,” said the lawyer.
+s=utterson;e:utterson=serious
+
+“I don’t ask that,” pleaded Jekyll, laying his hand upon the other’s arm; “I only ask for justice; I only ask you to help him for my sake, when I am no longer here.”
+s=jekyll;
+
+Utterson heaved an irrepressible sigh.
+s=none;e:utterson=weary
+
+“Well,” said he, “I promise.”
+s=utterson;e:utterson=neutral
