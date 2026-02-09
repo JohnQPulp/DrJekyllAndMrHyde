@@ -1,4 +1,4 @@
-*The Strange Case of Dr. Jekyll and Mr. Hyde* by Robert Louis Stevenson
+*The Strange Case of Dr. Jekyll and Mr. Hyde* by Robert Louis Stevenson<e>Note how the author sprite switches between two representations. Isn't that interesting?</e>
 n:author=;t=author;b=title
 
 ## Story of the Door
@@ -16,7 +16,7 @@ e:utterson=serious
 But he had an approved tolerance for others; sometimes wondering, almost with envy, at the high pressure of spirits involved in their misdeeds; and in any extremity inclined to help rather than to reprove.
 e:utterson=contemplative
 
-“I incline to Cain’s heresy,” he used to say quaintly: “I let my brother go to the devil in his own way.”
+“I incline to Cain’s heresy,” he used to say quaintly: “I let my brother go to the devil in his own way.”<e>Based <book>East of Eden</book> reference.</e>
 s=utterson;e:utterson=smirking
 
 In this character, it was frequently his fortune to be the last reputable acquaintance and the last good influence in the lives of downgoing men.
@@ -70,7 +70,7 @@ Tramps slouched into the recess and struck matches on the panels; children kept 
 Mr. Enfield and the lawyer were on the other side of the bystreet; but when they came abreast of the entry, the former lifted up his cane and pointed.
 
 
-“Did you ever remark that door?” he asked; and when his companion had replied in the affirmative, “It is connected in my mind,” added he, “with a very odd story.”
+“Did you ever remark that door?” he asked; and when his companion had replied in the affirmative, “It is connected in my mind,” added he, “with a very odd story.”<e>Ah! A frame narrative!</e>
 s=enfield;e:enfield=serious
 
 “Indeed?” said Mr. Utterson, with a slight change of voice, “and what was that?”
@@ -187,7 +187,7 @@ s=enfield;e:enfield=serious
 “You start a question, and it’s like starting a stone. You sit quietly on the top of a hill; and away the stone goes, starting others; and presently some bland old bird (the last you would have thought of) is knocked on the head in his own back garden and the family have to change their name.”
 e:enfield=contemplative
 
-“No, sir, I make it a rule of mine: the more it looks like Queer Street, the less I ask.”
+“No, sir, I make it a rule of mine: the more it looks like Queer Street, the less I ask.”<e>"I also engage in a bit of sporting vandalism of those devilish rainbow crosswalks."</e>
 
 
 “A very good rule, too,” said the lawyer.
@@ -334,7 +334,7 @@ s=lanyon;e:lanyon=serious
 “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake as they say, I see and I have seen devilish little of the man.”
 e:lanyon=annoyed
 
-“Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”
+“Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”<e>Get it, litwits? A Damon and Pythias reference?</e>
 e:lanyon=angry
 
 This little spirt of temper was somewhat of a relief to Mr. Utterson.
@@ -397,7 +397,7 @@ From that time forward, Mr. Utterson began to haunt the door in the bystreet of
 In the morning before office hours, at noon when business was plenty, and time scarce, at night under the face of the fogged city moon, by all lights and at all hours of solitude or concourse, the lawyer was to be found on his chosen post.
 
 
-“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”
+“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”<e>Iconic.</e>
 t=utterson;e:utterson=thinking
 
 And at last his patience was rewarded.
@@ -632,7 +632,7 @@ s=none
 r=title
 
 A fortnight later, by excellent good fortune, the doctor gave one of his pleasant dinners to some five or six old cronies, all intelligent, reputable men and all judges of good wine; and Mr. Utterson so contrived that he remained behind after the others had departed.
-n:jekyll=Dr. Henry Jekyll;e:jekyll=happy;e:utterson=neutral
+n:jekyll=Dr. Henry Jekyll, M.D., D.C.L., LL.D., F.R.S., etc.;e:jekyll=happy;e:utterson=neutral
 
 This was no new arrangement, but a thing that had befallen many scores of times.
 
@@ -1756,7 +1756,7 @@ s=none;e:poole=angry
 A dismal screech, as of mere animal terror, rang from the cabinet.
 e:hyde=fearful
 
-Up went the axe again, and again the panels crashed and the frame bounded; four times the blow fell; but the wood was tough and the fittings were of excellent workmanship; and it was not until the fifth, that the lock burst in sundar and the wreck of the door fell inwards on the carpet.
+Up went the axe again, and again the panels crashed and the frame bounded; four times the blow fell; but the wood was tough and the fittings were of excellent workmanship; and it was not until the fifth, that the lock burst in sundar and the wreck of the door fell inwards on the carpet.<e>Here's Raskolnikov!</e>
 
 
 The besiegers, appalled by their own riot and the stillness that had succeeded, stood back a little and peered in.
@@ -1834,7 +1834,7 @@ s=poole;e:poole=sad
 This brought them to the fireside, where the easy-chair was drawn cosily up, and the tea things stood ready to the sitter’s elbow, the very sugar in the cup.
 s=none
 
-There were several books on a shelf; one lay beside the tea things open, and Utterson was amazed to find it a copy of a pious work, for which Jekyll had several times expressed a great esteem, annotated, in his own hand, with startling blasphemies.
+There were several books on a shelf; one lay beside the tea things open, and Utterson was amazed to find it a copy of a pious work, for which Jekyll had several times expressed a great esteem, annotated, in his own hand, with startling blasphemies.<e>"I do not care for Ecclesiastes."</e>
 e:utterson=surprised
 
 Next, in the course of their review of the chamber, the searchers came to the cheval-glass, into whose depths they looked with an involuntary horror.
@@ -1945,7 +1945,7 @@ I want you to postpone all other engagements for tonight﻿—aye, even if you w
 Poole, my butler, has his orders; you will find him waiting your arrival with a locksmith.
 
 
-The door of my cabinet is then to be forced: and you are to go in alone; to open the glazed press (letter E) on the left hand, breaking the lock if it be shut; and to draw out, *with all its contents as they stand*, the fourth drawer from the top or (which is the same thing) the third from the bottom.
+The door of my cabinet is then to be forced: and you are to go in alone; to open the glazed press (letter E) on the left hand, breaking the lock if it be shut; and to draw out, *with all its contents as they stand*, the fourth drawer from the top or (which is the same thing) the third from the bottom.<e>Press letter E: sweet Public Domain Pulp reference.</e>
 
 
 In my extreme distress of mind, I have a morbid fear of misdirecting you; but even if I am in error, you may know the right drawer by its contents: some powders, a phial and a paper book.
@@ -2023,7 +2023,7 @@ e:lanyon=confused
 These covered a period of many years, but I observed that the entries ceased nearly a year ago and quite abruptly.
 
 
-Here and there a brief remark was appended to a date, usually no more than a single word: “double” occurring perhaps six times in a total of several hundred entries; and once very early in the list and followed by several marks of exclamation, “total failure!!!”
+Here and there a brief remark was appended to a date, usually no more than a single word: “double” occurring perhaps six times in a total of several hundred entries; and once very early in the list and followed by several marks of exclamation, “total failure!!!”<e>Sad!</e>
 
 
 All this, though it whetted my curiosity, told me little that was definite.
@@ -2368,7 +2368,7 @@ e:jekyll=serious
 Had I approached my discovery in a more noble spirit, had I risked the experiment while under the empire of generous or pious aspirations, all must have been otherwise, and from these agonies of death and birth, I had come forth an angel instead of a fiend.
 e:jekyll=unhappy
 
-The drug had no discriminating action; it was neither diabolical nor divine; it but shook the doors of the prisonhouse of my disposition; and like the captives of Philippi, that which stood within ran forth.
+The drug had no discriminating action; it was neither diabolical nor divine; it but shook the doors of the prisonhouse of my disposition; and like the captives of Philippi, that which stood within ran forth.<e>See also: cocaine. (Used in the writing of this book, no fooling.)</e>
 
 
 At that time my virtue slumbered; my evil, kept awake by ambition, was alert and swift to seize the occasion; and the thing that was projected was Edward Hyde.
@@ -2425,7 +2425,7 @@ Think of it—I did not even exist!
 Let me but escape into my laboratory door, give me but a second or two to mix and swallow the draught that I had always standing ready; and whatever he had done, Edward Hyde would pass away like the stain of breath upon a mirror; and there in his stead, quietly at home, trimming the midnight lamp in his study, a man who could afford to laugh at suspicion, would be Henry Jekyll.
 e:jekyll=happy
 
-The pleasures which I made haste to seek in my disguise were, as I have said, undignified; I would scarce use a harder term.
+The pleasures which I made haste to seek in my disguise were, as I have said, undignified; I would scarce use a harder term.<e>Gay sex.</e>
 
 
 But in the hands of Edward Hyde, they soon began to turn towards the monstrous.
