@@ -227,7 +227,7 @@ e:enfield=unhappy
 
 
 “He’s an extraordinary looking man, and yet I really can name nothing out of the way. No, sir; I can make no hand of it; I can’t describe him. And it’s not want of memory; for I declare I can see him this moment.”
-e:enfield=confused;;e:enfield=serious
+e:enfield=confused;e:enfield=serious
 
 Mr. Utterson again walked some way in silence and obviously under a weight of consideration. “You are sure he used a key?” he inquired at last.
 s=utterson;e:utterson=thinking
@@ -1898,19 +1898,13 @@ And with that he brought the paper to his eyes and read as follows:
 s=none
 
 My dear Utterson—When this shall fall into your hands, I shall have disappeared, under what circumstances I have not the penetration to foresee, but my instinct and all the circumstances of my nameless situation tell me that the end is sure and must be early.
+d=margin
 
-
-Go then, and first read the narrative which Lanyon warned me he was to place in your hands; and if you care to hear more, turn to the confession of
-
-
-Your unworthy and unhappy friend,
-
-
-Henry Jekyll.
+Go then, and first read the narrative which Lanyon warned me he was to place in your hands; and if you care to hear more, turn to the confession of<br><span class='fright'>Your unworthy and unhappy friend,</span><br><span class='upper fright'>Henry Jekyll.</span>
 
 
 “There was a third enclosure?” asked Utterson.
-s=utterson;e:utterson=serious
+s=utterson;e:utterson=serious;d=
 
 “Here, sir,” said Poole, and gave into his hands a considerable packet sealed in several places.
 s=poole;e:poole=neutral
@@ -1930,25 +1924,19 @@ r=title
 On the ninth of January, now four days ago, I received by the evening delivery a registered envelope, addressed in the hand of my colleague and old school companion, Henry Jekyll.
 e:lanyon=neutral
 
-I was a good deal surprised by this; for we were by no means in the habit of correspondence; I had seen the man, dined with him, indeed, the night before; and I could imagine nothing in our intercourse that should justify formality of registration. The contents increased my wonder; for this is how the letter ran:
-e:lanyon=surprised;;e:lanyon=confused
+I was a good deal surprised by this; for we were by no means in the habit of correspondence; I had seen the man, dined with him, indeed, the night before; and I could imagine nothing in our intercourse that should justify formality of registration.
+e:lanyon=surprised;e:lanyon=confused
 
-10th December, 18﻿—.
+The contents increased my wonder; for this is how the letter ran:
 
 
-Dear Lanyon﻿—You are one of my oldest friends; and although we may have differed at times on scientific questions, I cannot remember, at least on my side, any break in our affection.
-
+10th December, 18﻿—.<br>Dear Lanyon﻿—You are one of my oldest friends; and although we may have differed at times on scientific questions, I cannot remember, at least on my side, any break in our affection.
+d=margin
 
 There was never a day when, if you had said to me, ‘Jekyll, my life, my honour, my reason, depend upon you,’ I would not have sacrificed my left hand to help you.
 
 
-Lanyon, my life, my honour, my reason, are all at your mercy; if you fail me tonight, I am lost.
-
-
-You might suppose, after this preface, that I am going to ask you for something dishonourable to grant.
-
-
-Judge for yourself.
+Lanyon, my life, my honour, my reason, are all at your mercy; if you fail me tonight, I am lost. You might suppose, after this preface, that I am going to ask you for something dishonourable to grant. Judge for yourself.
 
 
 I want you to postpone all other engagements for tonight﻿—aye, even if you were summoned to the bedside of an emperor; to take a cab, unless your carriage should be actually at the door; and with this letter in your hand for consultation, to drive straight to my house.
@@ -1987,26 +1975,20 @@ Confident as I am that you will not trifle with this appeal, my heart sinks and 
 Think of me at this hour, in a strange place, labouring under a blackness of distress that no fancy can exaggerate, and yet well aware that, if you will but punctually serve me, my troubles will roll away like a story that is told.
 
 
-Serve me, my dear Lanyon, and save
+Serve me, my dear Lanyon, and save<br><span class='fright'>Your friend,</span><br><span class='fright'>H. J.</span>
 
 
-Your friend,
+P.S.﻿—I had already sealed this up when a fresh terror struck upon my soul. It is possible that the post-office may fail me, and this letter not come into your hands until tomorrow morning.
 
 
-H. J.
+In that case, dear Lanyon, do my errand when it shall be most convenient for you in the course of the day; and once more expect my messenger at midnight.
 
 
-P.S.﻿—I had already sealed this up when a fresh terror struck upon my soul.
-
-
-It is possible that the post-office may fail me, and this letter not come into your hands until tomorrow morning.
-
-
-In that case, dear Lanyon, do my errand when it shall be most convenient for you in the course of the day; and once more expect my messenger at midnight. It may then already be too late; and if that night passes without event, you will know that you have seen the last of Henry Jekyll.
+It may then already be too late; and if that night passes without event, you will know that you have seen the last of Henry Jekyll.
 
 
 Upon the reading of this letter, I made sure my colleague was insane; but till that was proved beyond the possibility of doubt, I felt bound to do as he requested.
-e:lanyon=thinking;e:lanyon=serious
+e:lanyon=thinking;e:lanyon=serious;d=
 
 The less I understood of this farrago, the less I was in a position to judge of its importance; and an appeal so worded could not be set aside without a grave responsibility.
 
@@ -2141,7 +2123,7 @@ s=none;e:lanyon=neutral
 s=lanyon
 
 He sprang to it, and then paused, and laid his hand upon his heart; I could hear his teeth grate with the convulsive action of his jaws; and his face was so ghastly to see that I grew alarmed both for his life and reason.
-s=none;e:hyde=excited;;e:lanyon=fearful
+s=none;e:hyde=excited;e:lanyon=fearful
 
 “Compose yourself,” said I.
 s=lanyon
@@ -2224,7 +2206,7 @@ e:lanyon=serious
 The creature who crept into my house that night was, on Jekyll’s own confession, known by the name of Hyde and hunted for in every corner of the land as the murderer of Carew.
 
 
-Hastie Lanyon
+<span class='upper'>Hastie Lanyon</span>
 
 
 ## Henry Jekyll’s Full Statement of the Case
