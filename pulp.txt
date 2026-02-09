@@ -167,9 +167,12 @@ e:enfield=thinking
 
 
 “Though even that, you know, is far from explaining all,” he added, and with the words fell into a vein of musing.
-s=none;e:enfield=contemplative
+e:enfield=contemplative
 
-From this he was recalled by Mr. Utterson asking rather suddenly: “And you don’t know if the drawer of the cheque lives there?”
+From this he was recalled by Mr. Utterson asking rather suddenly:
+s=none
+
+“And you don’t know if the drawer of the cheque lives there?”
 s=utterson;e:utterson=thinking
 
 “A likely place, isn’t it?” returned Mr. Enfield. “But I happen to have noticed his address; he lives in some square or other.”
@@ -299,10 +302,10 @@ With that he blew out his candle, put on a greatcoat and set forth in the direct
 s=none;e:utterson=serious
 
 “If anyone knows, it will be Lanyon,” he had thought.
-s=utterson
+t=utterson
 
 The solemn butler knew and welcomed him; he was subjected to no stage of delay, but ushered direct from the door to the dining room where Dr. Lanyon sat alone over his wine.
-s=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral
+t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral
 
 This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner.
 e:lanyon=happy
@@ -395,10 +398,10 @@ In the morning before office hours, at noon when business was plenty, and time s
 
 
 “If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”
-s=utterson;e:utterson=thinking
+t=utterson;e:utterson=thinking
 
 And at last his patience was rewarded.
-s=none;e:utterson=neutral
+t=none;e:utterson=neutral
 
 It was a fine dry night; frost in the air; the streets as clean as a ballroom floor; the lamps, unshaken by any wind, drawing a regular pattern of light and shadow.
 
@@ -430,11 +433,17 @@ n:hyde=Edward Hyde;e:hyde=neutral
 But he made straight for the door, crossing the roadway to save time; and as he came, he drew a key from his pocket like one approaching home.
 
 
-Mr. Utterson stepped out and touched him on the shoulder as he passed. “Mr. Hyde, I think?”
+Mr. Utterson stepped out and touched him on the shoulder as he passed.
+
+
+“Mr. Hyde, I think?”
 s=utterson
 
-Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough: “That is my name. What do you want?”
-s=none;e:hyde=surprised;s=hyde;e:hyde=neutral
+Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough:
+s=none
+
+“That is my name. What do you want?”
+s=hyde;e:hyde=
 
 “I see you are going in,” returned the lawyer. “I am an old friend of Dr. Jekyll’s﻿—Mr. Utterson of Gaunt Street﻿—you must have heard my name; and meeting you so conveniently, I thought you might admit me.”
 s=utterson
@@ -466,17 +475,14 @@ s=hyde
 And he gave a number of a street in Soho.
 s=none
 
-“Good God!”
-s=utterson;e:utterson=surprised
-
-thought Mr. Utterson, “can he, too, have been thinking of the will?”
-s=none;e:utterson=thinking
+“Good God!” thought Mr. Utterson, “can he, too, have been thinking of the will?”
+t=utterson;e:utterson=surprised
 
 But he kept his feelings to himself and only grunted in acknowledgment of the address.
-e:utterson=serious
+e:utterson=serious;t=
 
 “And now,” said the other, “how did you know me?”
-s=hyde;e:hyde=neutral
+s=hyde;e:hyde=neutral;t=
 
 “By description,” was the reply.
 s=utterson
@@ -740,16 +746,16 @@ The details were few and startling.
 
 
 A maid servant living alone in a house not far from the river, had gone upstairs to bed about eleven.
-n:maid=Maid
+n:maid1=Maid
 
 Although a fog rolled over the city in the small hours, the early part of the night was cloudless, and the lane, which the maid’s window overlooked, was brilliantly lit by the full moon.
 
 
 It seems she was romantically given, for she sat down upon her box, which stood immediately under the window, and fell into a dream of musing.
-e:maid=contemplative
+e:maid1=contemplative
 
 Never (she used to say, with streaming tears, when she narrated that experience), never had she felt more at peace with all men or thought more kindly of the world.
-e:maid=happy
+e:maid1=happy
 
 And as she so sat she became aware of an aged and beautiful gentleman with white hair, drawing near along the lane; and advancing to meet him, another and very small gentleman, to whom at first she paid less attention.
 
@@ -761,7 +767,7 @@ It did not seem as if the subject of his address were of great importance; indee
 
 
 Presently her eye wandered to the other, and she was surprised to recognise in him a certain Mr. Hyde, who had once visited her master and for whom she had conceived a dislike.
-e:maid=suspicious
+e:maid1=suspicious
 
 He had in his hand a heavy cane, with which he was trifling; but he answered never a word, and seemed to listen with an ill-contained impatience.
 e:hyde=angry
@@ -776,7 +782,7 @@ And next moment, with apelike fury, he was trampling his victim under foot and h
 
 
 At the horror of these sights and sounds, the maid fainted.
-e:maid=fearful
+e:maid1=fearful
 
 It was two o’clock when she came to herself and called for the police.
 
@@ -863,7 +869,7 @@ s=utterson;e:utterson=serious
 n:officer=Inspector Newcomen
 
 A flash of odious joy appeared upon the woman’s face.
-s=none;e:housekeeper=happy
+s=none;e:housekeeper=smirking
 
 “Ah!” said she, “he is in trouble! What has he done?”
 s=housekeeper
@@ -1444,8 +1450,11 @@ s=poole
 “Amen, Poole,” said the lawyer.
 s=utterson;e:utterson=serious
 
-Thereupon the servant knocked in a very guarded manner; the door was opened on the chain; and a voice asked from within, “Is that you, Poole?”
-s=none;n:maid=Maid;e:maid=nervous
+Thereupon the servant knocked in a very guarded manner; the door was opened on the chain; and a voice asked from within,
+s=none
+
+“Is that you, Poole?”
+n:housemaid=?;s=housemaid;e:housemaid=nervous
 
 “It’s all right,” said Poole. “Open the door.”
 s=poole;e:poole=serious
@@ -1454,7 +1463,7 @@ The hall, when they entered it, was brightly lighted up; the fire was built high
 s=none
 
 At the sight of Mr. Utterson, the housemaid broke into hysterical whimpering; and the cook, crying out “Bless God! it’s Mr. Utterson,” ran forward as if to take him in her arms.
-e:maid=crying;n:cook=Cook;e:cook=crying
+n:housemaid=Housemaid;e:housemaid=crying;n:cook=Cook;e:cook=crying
 
 “What, what? Are you all here?” said the lawyer peevishly.
 s=utterson;e:utterson=annoyed
@@ -1469,7 +1478,7 @@ Blank silence followed, no one protesting; only the maid lifted up her voice and
 s=none
 
 “Hold your tongue!” Poole said to her, with a ferocity of accent that testified to his own jangled nerves; and indeed, when the girl had so suddenly raised the note of her lamentation, they had all started and turned towards the inner door with faces of dreadful expectation.
-s=poole;e:poole=angry;e:maid=fearful
+s=poole;e:poole=angry;e:housemaid=fearful
 
 “And now,” continued the butler, addressing the knife-boy, “reach me a candle, and we’ll get this through hands at once.”
 e:poole=serious
