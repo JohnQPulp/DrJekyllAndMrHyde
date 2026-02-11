@@ -290,19 +290,19 @@ s=utterson;e:utterson=serious
 r=title
 
 That evening, Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish.
-e:utterson=unhappy
+e:utterson=unhappy;b=utterson-dining
 
 It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed.
 
 
 On this night, however, as soon as the cloth was taken away, he took up a candle and went into his business room.
-
+b=utterson-business
 
 There he opened his safe, took from the most private part of it a document endorsed on the envelope as “Dr. Jekyll’s Will,” and sat down with a clouded brow to study its contents.
 e:utterson=serious
 
 The will was holograph, for Mr. Utterson, though he took charge of it now that it was made, had refused to lend the least assistance in the making of it; it provided not only that, in case of the decease of Henry Jekyll, M.D., D.C.L., LL.D., F.R.S., etc., all his possessions were to pass into the hands of his “friend and benefactor Edward Hyde,” but that in case of Dr. Jekyll’s “disappearance or unexplained absence for any period exceeding three calendar months,” the said Edward Hyde should step into the said Henry Jekyll’s shoes without further delay and free from any burden or obligation, beyond the payment of a few small sums to the members of the doctor’s household.
-
+o=will
 
 This document had long been the lawyer’s eyesore.
 e:utterson=annoyed
@@ -317,25 +317,22 @@ It was worse when it began to be clothed upon with detestable attributes; and ou
 
 
 “I thought it was madness,” he said, as he replaced the obnoxious paper in the safe, “and now I begin to fear it is disgrace.”
-s=utterson;e:utterson=fearful
+s=utterson;e:utterson=contemplative;o=
 
 With that he blew out his candle, put on a greatcoat and set forth in the direction of Cavendish Square, that citadel of medicine, where his friend, the great Dr. Lanyon, had his house and received his crowding patients.
-s=none;e:utterson=serious
+s=none;e:utterson=serious;b=lanyon-ext-night
 
 “If anyone knows, it will be Lanyon,” he had thought.
 t=utterson
 
 The solemn butler knew and welcomed him; he was subjected to no stage of delay, but ushered direct from the door to the dining room where Dr. Lanyon sat alone over his wine.
-t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral
+t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral;b=lanyon-dining
 
-This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner.
-e:lanyon=happy
-
-At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands.
-
+This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner. At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands.
+e:lanyon=happy;c=lanyon
 
 The geniality, as was the way of the man, was somewhat theatrical to the eye; but it reposed on genuine feeling. For these two were old friends, old mates both at school and college, both thorough respectors of themselves and of each other, and, what does not always follow, men who thoroughly enjoyed each other’s company.
-
+c=
 
 After a little rambling talk, the lawyer led up to the subject which so disagreeably preoccupied his mind.
 e:utterson=serious;e:lanyon=neutral
@@ -347,7 +344,7 @@ s=utterson
 s=lanyon;e:lanyon=happy
 
 “Indeed?” said Utterson. “I thought you had a bond of common interest.”
-s=utterson;e:utterson=curious
+s=utterson;e:utterson=contemplative
 
 “We had,” was the reply.
 s=lanyon;e:lanyon=serious
@@ -362,13 +359,13 @@ This little spirt of temper was somewhat of a relief to Mr. Utterson.
 s=none;e:utterson=thinking
 
 “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing) he even added: “It is nothing worse than that!”
-
+t=utterson
 
 He gave his friend a few seconds to recover his composure, and then approached the question he had come to put.
-e:lanyon=neutral;e:utterson=serious
+e:lanyon=neutral;e:utterson=serious;t=
 
 “Did you ever come across a protégé of his﻿—one Hyde?” he asked.
-s=utterson
+s=utterson;e:utterson=serious
 
 “Hyde?” repeated Lanyon.
 s=lanyon;e:lanyon=thinking
@@ -377,7 +374,7 @@ s=lanyon;e:lanyon=thinking
 e:lanyon=neutral
 
 That was the amount of information that the lawyer carried back with him to the great, dark bed on which he tossed to and fro, until the small hours of the morning began to grow large.
-s=none;e:utterson=weary
+s=none;e:utterson=weary;b=utterson-bed
 
 It was a night of little ease to his toiling mind, toiling in mere darkness and beseiged by questions.
 
@@ -388,44 +385,41 @@ Six o’clock struck on the bells of the church that was so conveniently near to
 Hitherto it had touched him on the intellectual side alone; but now his imagination also was engaged or rather enslaved; and as he lay and tossed in the gross darkness of the night and the curtained room, Mr. Enfield’s tale went by before his mind in a scroll of lighted pictures.
 e:utterson=fearful
 
-He would be aware of the great field of lamps of a nocturnal city; then of the figure of a man walking swiftly; then of a child running from the doctor’s; and then these met, and that human Juggernaut trod the child down and passed on regardless of her screams.
+He would be aware of the great field of lamps of a nocturnal city; then of the figure of a man walking swiftly; then of a child running from the doctor’s; and then these met, and that human Juggernaut trod the child down and passed on regardless of her screams.<e>Previously on: *Jekyll and Hyde*.</e>
+b=story-1
 
-
-Or else he would see a room in a rich house, where his friend lay asleep, dreaming and smiling at his dreams; and then the door of that room would be opened, the curtains of the bed plucked apart, the sleeper recalled, and lo!
-
-
-there would stand by his side a figure to whom power was given, and even at that dead hour, he must rise and do its bidding.
-
+Or else he would see a room in a rich house, where his friend lay asleep, dreaming and smiling at his dreams; and then the door of that room would be opened, the curtains of the bed plucked apart, the sleeper recalled, and lo! there would stand by his side a figure to whom power was given, and even at that dead hour, he must rise and do its bidding.
+b=utterson-bed
 
 The figure in these two phases haunted the lawyer all night; and if at any time he dozed over, it was but to see it glide more stealthily through sleeping houses, or move the more swiftly and still the more swiftly, even to dizziness, through wider labyrinths of lamplighted city, and at every street corner crush a child and leave her screaming.
 
 
 And still the figure had no face by which he might know it; even in his dreams, it had no face, or one that baffled him and melted before his eyes; and thus it was that there sprang up and grew apace in the lawyer’s mind a singularly strong, almost an inordinate, curiosity to behold the features of the real Mr. Hyde.
-e:utterson=serious
+e:utterson=serious;b=story-5
 
 If he could but once set eyes on him, he thought the mystery would lighten and perhaps roll altogether away, as was the habit of mysterious things when well examined.
 
 
 He might see a reason for his friend’s strange preference or bondage (call it which you please) and even for the startling clause of the will.
-
+b=utterson-bed
 
 At least it would be a face worth seeing: the face of a man who was without bowels of mercy: a face which had but to show itself to raise up, in the mind of the unimpressionable Enfield, a spirit of enduring hatred.
 
 
 From that time forward, Mr. Utterson began to haunt the door in the bystreet of shops.
-
+b=bystreet
 
 In the morning before office hours, at noon when business was plenty, and time scarce, at night under the face of the fogged city moon, by all lights and at all hours of solitude or concourse, the lawyer was to be found on his chosen post.
 
 
-“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”<e>Iconic.</e>
-t=utterson;e:utterson=thinking
+“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”
+t=author;e:utterson=smirking
 
 And at last his patience was rewarded.
 t=none;e:utterson=neutral
 
 It was a fine dry night; frost in the air; the streets as clean as a ballroom floor; the lamps, unshaken by any wind, drawing a regular pattern of light and shadow.
-
+b=bystreet-night
 
 By ten o’clock, when the shops were closed, the bystreet was very solitary and, in spite of the low growl of London from all round, very silent.
 
@@ -440,7 +434,7 @@ In the course of his nightly patrols, he had long grown accustomed to the quaint
 
 
 Yet his attention had never before been so sharply and decisively arrested; and it was with a strong, superstitious prevision of success that he withdrew into the entry of the court.
-
+b=scaryhouse-ext-night
 
 The steps drew swiftly nearer, and swelled out suddenly louder as they turned the end of the street.
 
@@ -455,16 +449,19 @@ But he made straight for the door, crossing the roadway to save time; and as he 
 
 
 Mr. Utterson stepped out and touched him on the shoulder as he passed.
-
+c=hyde;x:hyde=back
 
 “Mr. Hyde, I think?”
 s=utterson
 
-Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough:
-s=none
+Mr. Hyde shrank back with a hissing intake of the breath.
+s=none;e:hyde=fearful
+
+But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough:
+s=none;e:hyde=serious;d=joined
 
 “That is my name. What do you want?”
-s=hyde;e:hyde=
+s=hyde;d=
 
 “I see you are going in,” returned the lawyer. “I am an old friend of Dr. Jekyll’s﻿—Mr. Utterson of Gaunt Street﻿—you must have heard my name; and meeting you so conveniently, I thought you might admit me.”
 s=utterson
@@ -472,8 +469,11 @@ s=utterson
 “You will not find Dr. Jekyll; he is from home,” replied Mr. Hyde, blowing in the key.
 s=hyde
 
-And then suddenly, but still without looking up, “How did you know me?” he asked.
-e:hyde=suspicious
+And then suddenly, but still without looking up,
+s=;d=joined
+
+“How did you know me?” he asked.
+e:hyde=suspicious;s=hyde;d=
 
 “On your side,” said Mr. Utterson, “will you do me a favour?”
 s=utterson
@@ -482,19 +482,22 @@ s=utterson
 s=hyde;e:hyde=smirking
 
 “Will you let me see your face?” asked the lawyer.
-s=utterson
+s=utterson;e:utterson=wary
 
-Mr. Hyde appeared to hesitate, and then, as if upon some sudden reflection, fronted about with an air of defiance; and the pair stared at each other pretty fixedly for a few seconds.
-s=none;e:hyde=neutral;e:utterson=serious
+Mr. Hyde appeared to hesitate, and then, as if upon some sudden reflection,
+s=;d=joined
+
+fronted about with an air of defiance; and the pair stared at each other pretty fixedly for a few seconds.
+s=none;e:hyde=serious;e:utterson=serious;x:hyde=
 
 “Now I shall know you again,” said Mr. Utterson. “It may be useful.”
 s=utterson
 
 “Yes,” returned Mr. Hyde, “it is as well we have met; and apropos, you should have my address.”
-s=hyde
+s=hyde;e:hyde=smirking
 
 And he gave a number of a street in Soho.
-s=none
+s=none;c=
 
 “Good God!” thought Mr. Utterson, “can he, too, have been thinking of the will?”
 t=utterson;e:utterson=surprised
@@ -503,7 +506,7 @@ But he kept his feelings to himself and only grunted in acknowledgment of the ad
 e:utterson=serious;t=
 
 “And now,” said the other, “how did you know me?”
-s=hyde;e:hyde=neutral;t=
+s=hyde;e:hyde=serious;t=;c=hyde
 
 “By description,” was the reply.
 s=utterson
@@ -512,31 +515,37 @@ s=utterson
 s=hyde;e:hyde=suspicious
 
 “We have common friends,” said Mr. Utterson.
-s=utterson
+s=utterson;e:utterson=wary
 
-“Common friends?” echoed Mr. Hyde, a little hoarsely. “Who are they?”
-s=hyde;e:hyde=angry
+“Common friends?” echoed Mr. Hyde, a little hoarsely.
+s=hyde
+
+“Who are they?”
+s=hyde;e:hyde=annoyed
 
 “Jekyll, for instance,” said the lawyer.
 s=utterson
 
 “He never told you,” cried Mr. Hyde, with a flush of anger.
-s=hyde
+s=hyde;e:hyde=angry
 
 “I did not think you would have lied.”
-e:hyde=scowling
+
 
 “Come,” said Mr. Utterson, “that is not fitting language.”
-s=utterson
+s=utterson;e:utterson=serious
 
-The other snarled aloud into a savage laugh; and the next moment, with extraordinary quickness, he had unlocked the door and disappeared into the house.
-s=none;e:hyde=neutral
+The other snarled aloud into a savage laugh;
+e:hyde=smirking;d=joined;s=
+
+and the next moment, with extraordinary quickness, he had unlocked the door and disappeared into the house.
+s=none;e:hyde=neutral;c=;d=
 
 The lawyer stood awhile when Mr. Hyde had left him, the picture of disquietude.
 e:utterson=unhappy
 
 Then he began slowly to mount the street, pausing every step or two and putting his hand to his brow like a man in mental perplexity.
-e:utterson=confused
+e:utterson=confused;b=bystreet-night
 
 The problem he was thus debating as he walked, was one of a class that is rarely solved.
 
@@ -545,31 +554,34 @@ Mr. Hyde was pale and dwarfish, he gave an impression of deformity without any 
 e:utterson=fearful
 
 “There must be something else,” said the perplexed gentleman. “There *is* something more, if I could find a name for it.”
-s=utterson;e:utterson=thinking
+s=utterson;e:utterson=contemplative
 
-“God bless me, the man seems hardly human! Something troglodytic, shall we say?”
-
-
-“or can it be the old story of Dr. Fell? or is it the mere radiance of a foul soul that thus transpires through, and transfigures, its clay continent?”
+“God bless me, the man seems hardly human! Something troglodytic, shall we say? or can it be the old story of Dr. Fell? or is it the mere radiance of a foul soul that thus transpires through, and transfigures, its clay continent?”
 
 
 “The last, I think; for O my poor old Harry Jekyll, if ever I read Satan’s signature upon a face, it is on that of your new friend.”
-e:utterson=sad
+e:utterson=unhappy
 
 Round the corner from the bystreet, there was a square of ancient, handsome houses, now for the most part decayed from their high estate and let in flats and chambers to all sorts and conditions of men: map-engravers, architects, shady lawyers and the agents of obscure enterprises.
-s=none;e:utterson=neutral
+s=none;e:utterson=neutral;b=jekyll-ext-night
 
-One house, however, second from the corner, was still occupied entire; and at the door of this, which wore a great air of wealth and comfort, though it was now plunged in darkness except for the fanlight, Mr. Utterson stopped and knocked.
+One house, however, second from the corner, was still occupied entire;
+d=joined
 
+and at the door of this, which wore a great air of wealth and comfort, though it was now plunged in darkness except for the fanlight, Mr. Utterson stopped and knocked.
+d=;b=jekyll-door-ext
 
 A well-dressed, elderly servant opened the door.
-n:poole=Poole;e:poole=neutral
+n:poole=Poole;e:poole=neutral;b=jekyll-door-ext-open
 
 “Is Dr. Jekyll at home, Poole?” asked the lawyer.
 s=utterson
 
-“I will see, Mr. Utterson,” said Poole, admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak.
-s=poole
+“I will see, Mr. Utterson,” said Poole,
+s=poole;d=joined
+
+admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak.
+s=;d=;b=jekyll-hall
 
 “Will you wait here by the fire, sir? or shall I give you a light in the dining room?”
 e:poole=happy
@@ -596,19 +608,19 @@ s=utterson;e:utterson=serious
 s=poole;e:poole=neutral
 
 “Your master seems to repose a great deal of trust in that young man, Poole,” resumed the other musingly.
-s=utterson;e:utterson=thinking
+s=utterson;e:utterson=contemplative
 
 “Yes, sir, he do indeed,” said Poole. “We have all orders to obey him.”
 s=poole
 
 “I do not think I ever met Mr. Hyde?” asked Utterson.
-s=utterson;e:utterson=curious
+s=utterson;e:utterson=thinking
 
 “O, dear no, sir. He never *dines* here,” replied the butler.
-s=poole;e:poole=thinking
+s=poole;e:poole=contemplative
 
 “Indeed we see very little of him on this side of the house; he mostly comes and goes by the laboratory.”
-
+e:poole=
 
 “Well, goodnight, Poole.”
 s=utterson;e:utterson=neutral
@@ -617,16 +629,16 @@ s=utterson;e:utterson=neutral
 s=poole
 
 And the lawyer set out homeward with a very heavy heart.
-s=none;e:utterson=sad
+s=none;e:utterson=sad;b=bystreet-night
 
 “Poor Harry Jekyll,” he thought, “my mind misgives me he is in deep waters! He was wild when he was young; a long while ago to be sure; but in the law of God, there is no statute of limitations.”
-s=utterson;e:utterson=thinking
+t=utterson;e:utterson=serious
 
 “Aye, it must be that; the ghost of some old sin, the cancer of some concealed disgrace: punishment coming, *pede claudo*, years after memory has forgotten and self-love condoned the fault.”
 
 
 And the lawyer, scared by the thought, brooded awhile on his own past, groping in all the corners of memory, lest by chance some Jack-in-the-Box of an old iniquity should leap to light there.
-s=none;e:utterson=fearful
+t=none
 
 His past was fairly blameless; few men could read the rolls of their life with less apprehension; yet he was humbled to the dust by the many ill things he had done, and raised up again into a sober and fearful gratitude by the many he had come so near to doing, yet avoided.
 
@@ -635,19 +647,19 @@ And then by a return on his former subject, he conceived a spark of hope.
 e:utterson=thinking
 
 “This Master Hyde, if he were studied,” thought he, “must have secrets of his own: black secrets, by the look of him; secrets compared to which poor Jekyll’s worst would be like sunshine.”
-s=utterson
+t=utterson;
 
 “Things cannot continue as they are. It turns me cold to think of this creature stealing like a thief to Harry’s bedside; poor Harry, what a wakening!”
-e:utterson=fearful
+e:utterson=wary
 
 “And the danger of it; for if this Hyde suspects the existence of the will, he may grow impatient to inherit.”
-
+e:utterson=serious
 
 “Aye, I must put my shoulder to the wheel﻿—if Jekyll will but let me,” he added, “if Jekyll will only let me.”
 e:utterson=serious
 
 For once more he saw before his mind’s eye, as clear as a transparency, the strange clauses of the will.
-s=none
+t=none
 
 ## Dr. Jekyll Was Quite at Ease
 r=title
