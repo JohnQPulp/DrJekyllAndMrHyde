@@ -221,13 +221,13 @@ s=enfield;e:enfield=contemplative
 e:enfield=serious
 
 The pair walked on again for a while in silence;
-s=;b=bystreet;d=joined
+s=;b=bystreet;m=joined
 
 and then “Enfield,” said Mr. Utterson, “that’s a good rule of yours.”<e>Damnit Utterson, you've had like three lines of dialogue so far and are already repeating yourself.</e>
-s=utterson;e:utterson=serious;d=
+s=utterson;e:utterson=serious;m=
 
 “Yes, I think it is,” returned Enfield.
-s=enfield;e:enfield=neutral;d=
+s=enfield;e:enfield=neutral
 
 “But for all that,” continued the lawyer, “there’s one point I want to ask: I want to ask the name of that man who walked over the child.”
 s=utterson;e:utterson=serious
@@ -458,10 +458,10 @@ Mr. Hyde shrank back with a hissing intake of the breath.
 s=none;e:hyde=fearful
 
 But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough:
-s=none;e:hyde=serious;d=joined
+s=none;e:hyde=serious;m=joined
 
 “That is my name. What do you want?”
-s=hyde;d=
+s=hyde;m=
 
 “I see you are going in,” returned the lawyer. “I am an old friend of Dr. Jekyll’s﻿—Mr. Utterson of Gaunt Street﻿—you must have heard my name; and meeting you so conveniently, I thought you might admit me.”
 s=utterson
@@ -470,10 +470,10 @@ s=utterson
 s=hyde
 
 And then suddenly, but still without looking up,
-s=;d=joined
+s=;m=joined
 
 “How did you know me?” he asked.
-e:hyde=suspicious;s=hyde;d=
+e:hyde=suspicious;s=hyde;m=
 
 “On your side,” said Mr. Utterson, “will you do me a favour?”
 s=utterson
@@ -485,10 +485,10 @@ s=hyde;e:hyde=smirking
 s=utterson;e:utterson=wary
 
 Mr. Hyde appeared to hesitate, and then, as if upon some sudden reflection,
-s=;d=joined
+s=;m=joined
 
 fronted about with an air of defiance; and the pair stared at each other pretty fixedly for a few seconds.
-s=none;e:hyde=serious;e:utterson=serious;x:hyde=
+s=none;e:hyde=serious;e:utterson=serious;x:hyde=;m=
 
 “Now I shall know you again,” said Mr. Utterson. “It may be useful.”
 s=utterson
@@ -536,10 +536,10 @@ s=hyde;e:hyde=angry
 s=utterson;e:utterson=serious
 
 The other snarled aloud into a savage laugh;
-e:hyde=smirking;d=joined;s=
+e:hyde=smirking;m=joined;s=
 
 and the next moment, with extraordinary quickness, he had unlocked the door and disappeared into the house.
-s=none;e:hyde=neutral;c=;d=
+s=none;e:hyde=neutral;c=;m=
 
 The lawyer stood awhile when Mr. Hyde had left him, the picture of disquietude.
 e:utterson=unhappy
@@ -566,10 +566,10 @@ Round the corner from the bystreet, there was a square of ancient, handsome hous
 s=none;e:utterson=neutral;b=jekyll-ext-night
 
 One house, however, second from the corner, was still occupied entire;
-d=joined
+m=joined
 
 and at the door of this, which wore a great air of wealth and comfort, though it was now plunged in darkness except for the fanlight, Mr. Utterson stopped and knocked.
-d=;b=jekyll-door-ext
+m=;b=jekyll-door-ext
 
 A well-dressed, elderly servant opened the door.
 n:poole=Poole;e:poole=neutral;b=jekyll-door-ext-open
@@ -578,10 +578,10 @@ n:poole=Poole;e:poole=neutral;b=jekyll-door-ext-open
 s=utterson
 
 “I will see, Mr. Utterson,” said Poole,
-s=poole;d=joined
+s=poole;m=joined
 
 admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak.
-s=;d=;b=jekyll-hall
+s=;m=;b=jekyll-hall
 
 “Will you wait here by the fire, sir? or shall I give you a light in the dining room?”
 e:poole=happy
@@ -803,10 +803,10 @@ And then all of a sudden he broke out in a great flame of anger, stamping with h
 b=story2-3
 
 The old gentleman took a step back, with the air of one very much surprised and a trifle hurt;
-e:carew=surprised;d=joined
+e:carew=surprised;m=joined
 
 and at that Mr. Hyde broke out of all bounds and clubbed him to the earth.
-d=;b=action
+m=;b=action
 
 And next moment, with apelike fury, he was trampling his victim under foot and hailing down a storm of blows, under which the bones were audibly shattered and the body jumped upon the roadway.
 
@@ -863,10 +863,10 @@ s=utterson;e:utterson=serious;o=
 s=officer;e:officer=serious
 
 Mr. Utterson reflected; and then, raising his head,
-d=joined;s=
+m=joined;s=
 
 “If you will come with me in my cab,” he said, “I think I can take you to his house.”
-s=utterson;d=
+s=utterson;m=
 
 It was by this time about nine in the morning, and the first fog of the season.
 s=none;b=fog-wide
@@ -1052,10 +1052,10 @@ e:utterson=serious;b=light
 s=utterson
 
 But Poole was positive nothing had come except by post;
-s=;d=joined
+s=;m=joined
 
 “and only circulars by that,” he added.
-s=poole;e:poole=neutral;d=
+s=poole;e:poole=neutral;m=
 
 This news sent off the visitor with his fears renewed. Plainly the letter had come by the laboratory door; possibly, indeed, it had been written in the cabinet; and if that were so, it must be differently judged, and handled with the more caution.
 s=none;e:utterson=nervous;e:utterson=thinking;b=bystreet
@@ -1229,13 +1229,13 @@ s=lanyon;e:lanyon=fearful
 e:lanyon=weary
 
 “Tut-tut,” said Mr. Utterson;
-d=joined;e:utterson=thinking;s=utterson
+m=joined;e:utterson=thinking;s=utterson
 
 and then after a considerable pause,
 s=
 
 “Can’t I do anything?” he inquired.
-s=utterson;e:utterson=unhappy;d=
+s=utterson;e:utterson=unhappy;m=
 
 “We are three very old friends, Lanyon; we shall not live to make others.”
 
@@ -1409,13 +1409,13 @@ Mr. Utterson was sitting by his fireside one evening after dinner, when he was s
 b=utterson-dining
 
 “Bless me, Poole, what brings you here?” he cried;
-d=joined;s=utterson;e:utterson=surprised
+m=joined;s=utterson;e:utterson=surprised
 
 and then taking a second look at him,
 s=
 
 “What ails you?” he added; “is the doctor ill?”
-s=utterson;e:poole=nervous;e:utterson=serious;d=
+s=utterson;e:poole=nervous;e:utterson=serious;m=
 
 “Mr. Utterson,” said the man, “there is something wrong.”
 s=poole
@@ -1493,10 +1493,10 @@ s=poole
 s=utterson;e:utterson=serious
 
 Thereupon the servant knocked in a very guarded manner; the door was opened on the chain; and a voice asked from within,
-s=none;b=jekyll-door-chain;d=joined
+s=none;b=jekyll-door-chain;m=joined
 
 “Is that you, Poole?”
-n:housemaid=?;s=housemaid;e:housemaid=nervous;d=
+n:housemaid=?;s=housemaid;e:housemaid=nervous;m=
 
 “It’s all right,” said Poole. “Open the door.”
 s=poole;e:poole=serious
@@ -1607,10 +1607,10 @@ So far the letter had run composedly enough, but here with a sudden splutter of 
 
 
 “This is a strange note,” said Mr. Utterson;
-s=utterson;e:utterson=contemplative;d=joined;o=
+s=utterson;e:utterson=contemplative;m=joined;o=
 
 and then sharply, “How do you come to have it open?”
-s=utterson;e:utterson=suspicious;o=;d=
+s=utterson;e:utterson=suspicious;o=;m=
 
 “The man at Maw’s was main angry, sir, and he threw it back to me like so much dirt,” returned Poole.
 s=poole;e:poole=annoyed
@@ -1619,10 +1619,10 @@ s=poole;e:poole=annoyed
 s=utterson;e:utterson=contemplative
 
 “I thought it looked like it,” said the servant rather sulkily;
-s=poole;e:poole=unhappy;d=joined
+s=poole;e:poole=unhappy;m=joined
 
 and then, with another voice, “But what matters hand of write,” he said. “I’ve seen him!”
-s=poole;e:poole=angry;d=
+s=poole;e:poole=angry;m=
 
 “Seen him?” repeated Mr. Utterson. “Well?”
 s=utterson;e:utterson=surprised
@@ -1973,13 +1973,13 @@ And with that he brought the paper to his eyes and read as follows:
 s=none
 
 My dear Utterson—When this shall fall into your hands, I shall have disappeared, under what circumstances I have not the penetration to foresee, but my instinct and all the circumstances of my nameless situation tell me that the end is sure and must be early.
-d=margin;o=doctor-note
+m=margin;o=doctor-note
 
 Go then, and first read the narrative which Lanyon warned me he was to place in your hands; and if you care to hear more, turn to the confession of<br><span class='fright'>Your unworthy and unhappy friend,</span><br><span class='upper fright'>Henry Jekyll.</span>
 
 
 “There was a third enclosure?” asked Utterson.
-s=utterson;e:utterson=serious;d=;o=
+s=utterson;e:utterson=serious;m=;o=
 
 “Here, sir,” said Poole, and gave into his hands a considerable packet sealed in several places.
 s=poole;e:poole=serious
@@ -2009,7 +2009,7 @@ The contents increased my wonder; for this is how the letter ran:
 
 
 10th December, 18﻿—.<br>Dear Lanyon﻿—You are one of my oldest friends; and although we may have differed at times on scientific questions, I cannot remember, at least on my side, any break in our affection.
-d=margin
+m=margin
 
 There was never a day when, if you had said to me, ‘Jekyll, my life, my honour, my reason, depend upon you,’ I would not have sacrificed my left hand to help you.
 
@@ -2066,7 +2066,7 @@ It may then already be too late; and if that night passes without event, you wil
 
 
 Upon the reading of this letter, I made sure my colleague was insane; but till that was proved beyond the possibility of doubt, I felt bound to do as he requested.
-e:lanyon=thinking;e:lanyon=serious;d=
+e:lanyon=thinking;e:lanyon=serious;m=
 
 The less I understood of this farrago, the less I was in a position to judge of its importance; and an appeal so worded could not be set aside without a grave responsibility.
 
