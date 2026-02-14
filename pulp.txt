@@ -68,7 +68,7 @@ Tramps slouched into the recess and struck matches on the panels; children kept 
 
 
 Mr. Enfield and the lawyer were on the other side of the bystreet; but when they came abreast of the entry, the former lifted up his cane and pointed.
-
+x:enfield=hat;x:utterson=hat
 
 “Did you ever remark that door?” he asked; and when his companion had replied in the affirmative, “It is connected in my mind,” added he, “with a very odd story.”<e>Ah! A frame narrative! This book <i>is</i> scary.</e>
 s=enfield;e:enfield=serious
@@ -323,10 +323,10 @@ With that he blew out his candle, put on a greatcoat and set forth in the direct
 s=none;e:utterson=serious;b=lanyon-ext-night
 
 “If anyone knows, it will be Lanyon,” he had thought.
-t=utterson
+t=utterson;x:utterson=hat
 
 The solemn butler knew and welcomed him; he was subjected to no stage of delay, but ushered direct from the door to the dining room where Dr. Lanyon sat alone over his wine.
-t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral;b=lanyon-dining
+t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral;b=lanyon-dining;x:utterson=
 
 This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner. At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands.
 e:lanyon=happy;c=lanyon
@@ -434,7 +434,7 @@ In the course of his nightly patrols, he had long grown accustomed to the quaint
 
 
 Yet his attention had never before been so sharply and decisively arrested; and it was with a strong, superstitious prevision of success that he withdrew into the entry of the court.
-b=scaryhouse-ext-night
+b=scaryhouse-ext-night;x:utterson=hat
 
 The steps drew swiftly nearer, and swelled out suddenly louder as they turned the end of the street.
 
@@ -581,7 +581,7 @@ s=utterson
 s=poole;m=joined
 
 admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak.
-s=;m=;b=jekyll-hall
+s=;m=;b=jekyll-hall;x:utterson=
 
 “Will you wait here by the fire, sir? or shall I give you a light in the dining room?”
 e:poole=happy
@@ -629,7 +629,7 @@ s=utterson;e:utterson=neutral
 s=poole
 
 And the lawyer set out homeward with a very heavy heart.
-s=none;e:utterson=sad;b=bystreet-night
+s=none;e:utterson=sad;b=bystreet-night;x:utterson=hat
 
 “Poor Harry Jekyll,” he thought, “my mind misgives me he is in deep waters! He was wild when he was young; a long while ago to be sure; but in the law of God, there is no statute of limitations.”
 t=utterson;e:utterson=serious
@@ -881,7 +881,7 @@ The thoughts of his mind, besides, were of the gloomiest dye; and when he glance
 e:utterson=unhappy;e:utterson=nervous
 
 As the cab drew up before the address indicated, the fog lifted a little and showed him a dingy street, a gin palace, a low French eating house, a shop for the retail of penny numbers and twopenny salads, many ragged children huddled in the doorways, and many women of many different nationalities passing out, key in hand, to have a morning glass; and the next moment the fog settled down again upon that part, as brown as umber, and cut him off from his blackguardly surroundings.
-b=hyde-ext
+b=hyde-ext;x:utterson=hat
 
 This was the home of Henry Jekyll’s favourite; of a man who was heir to a quarter of a million sterling.
 
@@ -1331,7 +1331,7 @@ e:utterson=weary
 r=title
 
 It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the bystreet; and that when they came in front of the door, both stopped to gaze on it.
-e:utterson=neutral;e:enfield=neutral;b=scaryhouse-ext
+e:utterson=neutral;e:enfield=neutral;b=scaryhouse-ext;x:utterson=hat;x:enfield=hat
 
 “Well,” said Enfield, “that story’s at an end at least. We shall never see more of Mr. Hyde.”
 s=enfield;e:enfield=serious
@@ -1463,7 +1463,7 @@ e:utterson=annoyed
 s=poole;e:poole=nervous
 
 Mr. Utterson’s only answer was to rise and get his hat and greatcoat; but he observed with wonder the greatness of the relief that appeared upon the butler’s face, and perhaps with no less, that the wine was still untasted when he set it down to follow.
-s=none;e:utterson=thinking
+s=none;e:utterson=thinking;x:utterson=hat
 
 It was a wild, cold, seasonable night of March, with a pale moon, lying on her back as though the wind had tilted her, and a flying wrack of the most diaphanous and lawny texture.
 b=night-wide
@@ -1478,7 +1478,7 @@ He could have wished it otherwise; never in his life had he been conscious of so
 e:utterson=nervous
 
 The square, when they got there, was all full of wind and dust, and the thin trees in the garden were lashing themselves along the railing.
-b=jekyll-ext-night
+b=jekyll-ext-night;x:poole=hat
 
 Poole, who had kept all the way a pace or two ahead, now pulled up in the middle of the pavement, and in spite of the biting weather, took off his hat and mopped his brow with a red pocket-handkerchief.
 e:poole=nervous
@@ -1529,7 +1529,7 @@ s=
 e:poole=serious;s=poole
 
 And then he begged Mr. Utterson to follow him, and led the way to the back garden.
-s=none;b=light
+s=none;b=light;x:utterson=;x:poole=
 
 “Now, sir,” said he, “you come as gently as you can. I want you to hear, and I don’t want you to be heard. And see here, sir, if by any chance he was to ask you in, don’t go.”
 s=poole;e:poole=nervous;e:utterson=wary
@@ -2129,7 +2129,7 @@ Twelve o’clock had scarce rung out over London, ere the knocker sounded very g
 b=light
 
 I went myself at the summons, and found a small man crouching against the pillars of the portico.
-c=hyde;x:hyde=back
+c=hyde;x:hyde=back,loose
 
 “Are you come from Dr. Jekyll?” I asked.
 s=lanyon;e:lanyon=wary
@@ -2147,7 +2147,7 @@ Here, at last, I had a chance of clearly seeing him. I had never set eyes on him
 
 
 He was small, as I have said; I was struck besides with the shocking expression of his face, with his remarkable combination of great muscular activity and great apparent debility of constitution, and﻿—last but not least﻿—with the odd, subjective disturbance caused by his neighbourhood.
-c=hyde;x:hyde=;e:hyde=nervous
+c=hyde;x:hyde=loose;e:hyde=nervous
 
 This bore some resemblance to incipient rigour, and was accompanied by a marked sinking of the pulse.
 c=
