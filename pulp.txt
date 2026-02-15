@@ -1,5 +1,5 @@
-*The Strange Case of Dr. Jekyll and Mr. Hyde* by Robert Louis Stevenson<e>Notice how the author image switches between two different sprites. Pretty clever, huh?</e>
-n:author=;t=author;b=title
+<div class='center'><span class='big italics'>The Strange Case of Dr. Jekyll and Mr. Hyde</span> by&nbsp;Robert&nbsp;Louis&nbsp;Stevenson</div><e>Notice how the author image switches between two different sprites. Pretty clever, huh?</e>
+n:author=;t=author;b=title;z:author=75,33,1
 
 ## Story of the Door
 r=title
