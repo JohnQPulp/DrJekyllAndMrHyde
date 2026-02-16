@@ -128,7 +128,7 @@ e:enfield=serious
 e:enfield=wary
 
 “‘If you choose to make capital out of this accident,’ said he, ‘I am naturally helpless. No gentleman but wishes to avoid a scene,’ says he.”
-e:enfield=hyde;b=story-5
+e:enfield=scowling;b=story-5
 
 “‘Name your figure.’”
 
@@ -149,7 +149,7 @@ e:enfield=serious
 
 
 “‘Set your mind at rest,’ says he, ‘I will stay with you till the banks open and cash the cheque myself.’”
-b=story-5;e:enfield=hyde
+b=story-5;e:enfield=scowling
 
 “So we all set off, the doctor, and the child’s father, and our friend and myself, and passed the rest of the night in my chambers; and next day, when we had breakfasted, went in a body to the bank.”
 e:enfield=serious;b=scaryhouse-ext
