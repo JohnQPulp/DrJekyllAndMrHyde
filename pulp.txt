@@ -32,7 +32,7 @@ It is the mark of a modest man to accept his friendly circle ready-made from the
 b=light
 
 Hence, no doubt, the bond that united him to Mr. Richard Enfield, his distant kinsman, the well-known man about town.
-n:enfield=Richard Enfield;c=enfield
+n:enfield=Richard Enfield;c=enfield;x:enfield=hat
 
 It was a nut to crack for many, what these two could see in each other, or what subject they could find in common.
 c=
@@ -1358,7 +1358,7 @@ The middle one of the three windows was halfway open; and sitting close beside i
 e:jekyll=unhappy;b=jekyll-window
 
 “What! Jekyll!” he cried. “I trust you are better.”
-s=utterson;e:utterson=surprised
+s=utterson;e:utterson=surprised;x:jekyll=dark
 
 “I am very low, Utterson,” replied the doctor drearily, “very low. It will not last long, thank God.”
 s=jekyll;e:jekyll=weary
