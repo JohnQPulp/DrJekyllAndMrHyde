@@ -1265,7 +1265,7 @@ The quarrel with Lanyon was incurable.
 
 
 “I do not blame our old friend,” Jekyll wrote, “but I share his view that we must never meet.”
-t=jekyll;e:jekyll=unhappy;o=jekyll-letter
+t=jekyll;e:jekyll=unhappy;o=letter
 
 “I mean from henceforth to lead a life of extreme seclusion; you must not be surprised, nor must you doubt my friendship, if my door is often shut even to you.”
 
@@ -1976,7 +1976,7 @@ And with that he brought the paper to his eyes and read as follows:
 s=none
 
 My dear Utterson—When this shall fall into your hands, I shall have disappeared, under what circumstances I have not the penetration to foresee, but my instinct and all the circumstances of my nameless situation tell me that the end is sure and must be early.
-m=margin;o=doctor-note
+m=margin;o=letter
 
 Go then, and first read the narrative which Lanyon warned me he was to place in your hands; and if you care to hear more, turn to the confession of<br><span class='fright'>Your unworthy and unhappy friend,</span><br><span class='upper fright'>Henry Jekyll.</span>
 
