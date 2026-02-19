@@ -85,8 +85,11 @@ e:enfield=
 “All at once, I saw two figures: one a little man who was stumping along eastward at a good walk, and the other a girl of maybe eight or ten who was running as hard as she was able down a cross street.”
 e:enfield=serious;b=story-2
 
-“Well, sir, the two ran into one another naturally enough at the corner; and then came the horrible part of the thing; for the man trampled calmly over the child’s body and left her screaming on the ground.”
-b=story-3
+“Well, sir, the two ran into one another naturally enough at the corner; and then came the horrible part of the thing;”
+m=joined
+
+“for the man trampled calmly over the child’s body and left her screaming on the ground.”
+b=action;m=
 
 “It sounds nothing to hear, but it was hellish to see. It wasn’t like a man; it was like some damned Juggernaut.”
 e:enfield=wary
@@ -293,7 +296,7 @@ That evening, Mr. Utterson came home to his bachelor house in sombre spirits an
 e:utterson=unhappy;b=utterson-dining
 
 It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed.
-
+b=utterson-fire
 
 On this night, however, as soon as the cloth was taken away, he took up a candle and went into his business room.
 b=utterson-business
@@ -827,7 +830,7 @@ A purse and a gold watch were found upon the victim: but no cards or papers, exc
 o=
 
 This was brought to the lawyer the next morning, before he was out of bed; and he had no sooner seen it, and been told the circumstances, than he shot out a solemn lip.
-e:utterson=serious;b=utterson-entry
+e:utterson=serious;b=utterson-bed
 
 “I shall say nothing till I have seen the body,” said he; “this may be very serious. Have the kindness to wait while I dress.”
 s=utterson;x:utterson=undressed
@@ -1070,7 +1073,7 @@ It was, at least, a ticklish decision that he had to make; and self-reliant as h
 
 
 Presently after, he sat on one side of his own hearth, with Mr. Guest, his head clerk, upon the other, and midway between, at a nicely calculated distance from the fire, a bottle of a particular old wine that had long dwelt unsunned in the foundations of his house.
-n:guest=Mr. Guest;e:utterson=neutral;e:guest=neutral;b=utterson-hearth
+n:guest=Mr. Guest;e:utterson=neutral;e:guest=neutral;b=utterson-fire
 
 The fog still slept on the wing above the drowned city, where the lamps glimmered like carbuncles; and through the muffle and smother of these fallen clouds, the procession of the town’s life was still rolling in through the great arteries with a sound as of a mighty wind.
 
@@ -1373,7 +1376,7 @@ e:utterson=thinking
 e:utterson=
 
 “You are very good,” sighed the other. “I should like to very much; but no, no, no, it is quite impossible; I dare not.”
-s=jekyll;e:jekyll=unhappy
+s=jekyll
 
 “But indeed, Utterson, I am very glad to see you; this is really a great pleasure; I would ask you and Mr. Enfield up, but the place is really not fit.”
 
@@ -1382,7 +1385,7 @@ s=jekyll;e:jekyll=unhappy
 s=utterson;e:utterson=happy
 
 “That is just what I was about to venture to propose,” returned the doctor with a smile.
-s=jekyll;e:jekyll=happy
+s=jekyll
 
 But the words were hardly uttered, before the smile was struck out of his face and succeeded by an expression of such abject terror and despair, as froze the very blood of the two gentlemen below.
 s=none;e:jekyll=fearful
@@ -1406,7 +1409,7 @@ s=none;e:enfield=serious
 r=title
 
 Mr. Utterson was sitting by his fireside one evening after dinner, when he was surprised to receive a visit from Poole.
-b=utterson-dining
+b=utterson-fire
 
 “Bless me, Poole, what brings you here?” he cried;
 m=joined;s=utterson;e:utterson=surprised
@@ -1502,7 +1505,7 @@ n:housemaid=?;s=housemaid;e:housemaid=nervous;m=
 s=poole;e:poole=serious
 
 The hall, when they entered it, was brightly lighted up; the fire was built high; and about the hearth the whole of the servants, men and women, stood huddled together like a flock of sheep.
-s=none;b=jekyll-fire
+s=none;b=jekyll-hall
 
 At the sight of Mr. Utterson, the housemaid broke into hysterical whimpering; and the cook, crying out “Bless God! it’s Mr. Utterson,” ran forward as if to take him in her arms.
 n:housemaid=Housemaid;e:housemaid=crying;n:cook=Cook;e:cook=crying
@@ -2342,10 +2345,10 @@ It was on the moral side, and in my own person, that I learned to recognise the 
 e:jekyll=contemplative;c=jekyll,hyde;x:jekyll=dark;x:hyde=dark;v=50,100
 
 If each, I told myself, could but be housed in separate identities, life would be relieved of all that was unbearable; the unjust might go his way, delivered from the aspirations and remorse of his more upright twin; and the just could walk steadfastly and securely on his upward path, doing the good things in which he found his pleasure, and no longer exposed to disgrace and penitence by the hands of this extraneous evil.
-e:jekyll=excited;v=120,100
+v=120,100
 
 It was the curse of mankind that these incongruous faggots were thus bound together—that in the agonised womb of consciousness, these polar twins should be continuously struggling.
-e:jekyll=unhappy;v=1,100
+v=1,100
 
 How, then, were they dissociated?
 e:jekyll=thinking;c=
