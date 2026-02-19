@@ -140,10 +140,10 @@ e:enfield=scowling;b=story-5
 e:enfield=serious;b=story-4
 
 “The next thing was to get the money; and where do you think he carried us but to that place with the door?—whipped out a key, went in, and presently came back with the matter of ten pounds in gold and a cheque for the balance on Coutts’s, drawn payable to bearer and signed with a name that I can’t mention, though it’s one of the points of my story, but it was a name at least very well known and often printed.”
-e:enfield=thinking;b=story-6
+e:enfield=thinking;b=scaryhouse-ext
 
 “The figure was stiff; but the signature was good for more than that, if it was only genuine.”
-
+b=story-4
 
 “I took the liberty of pointing out to my gentleman that the whole business looked apocryphal, and that a man does not, in real life, walk into a cellar door at four in the morning and come out of it with another man’s cheque for close upon a hundred pounds.”
 e:enfield=serious
@@ -583,7 +583,7 @@ s=utterson
 “I will see, Mr. Utterson,” said Poole,
 s=poole;m=joined
 
-admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak.
+admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak.<e>"flags" meaning flagstones.</e>
 s=;m=;b=jekyll-hall;x:utterson=
 
 “Will you wait here by the fire, sir? or shall I give you a light in the dining room?”
@@ -2132,13 +2132,13 @@ Twelve o’clock had scarce rung out over London, ere the knocker sounded very g
 b=light
 
 I went myself at the summons, and found a small man crouching against the pillars of the portico.
-c=hyde;x:hyde=back,loose
+c=hyde;x:hyde=loose
 
 “Are you come from Dr. Jekyll?” I asked.
 s=lanyon;e:lanyon=wary
 
 He told me “yes” by a constrained gesture; and when I had bidden him enter, he did not obey me without a searching backward glance into the darkness of the square.
-s=none;e:hyde=nervous
+s=none;e:hyde=nervous;c=
 
 There was a policeman not far off, advancing with his bull’s eye open; and at the sight, I thought my visitor started and made greater haste.
 e:hyde=fearful;c=
@@ -2354,7 +2354,7 @@ How, then, were they dissociated?
 e:jekyll=thinking;c=
 
 I was so far in my reflections when, as I have said, a side light began to shine upon the subject from the laboratory table.
-b=past-lab;x:hyde=;x:jekyll=
+b=jekyll-large;x:hyde=;x:jekyll=
 
 I began to perceive more deeply than it has ever yet been stated, the trembling immateriality, the mistlike transience, of this seemingly so solid body in which we walk attired.
 
@@ -2393,7 +2393,7 @@ Then these agonies began swiftly to subside, and I came to myself as if out of a
 e:jekyll=weary;f:b:think=
 
 There was something strange in my sensations, something indescribably new and, from its very novelty, incredibly sweet.
-e:jekyll=surprised;b=past-lab
+e:jekyll=surprised;b=jekyll-large
 
 I felt younger, lighter, happier in body; within I was conscious of a heady recklessness, a current of disordered sensual images running like a millrace in my fancy, a solution of the bonds of obligation, an unknown but not an innocent freedom of the soul.
 e:jekyll=excited
@@ -2450,7 +2450,7 @@ and came to myself once more with the character, the stature and the face of Hen
 m=;c=jekyll
 
 That night I had come to the fatal crossroads.
-e:jekyll=serious;b=past-lab;c=
+e:jekyll=serious;b=jekyll-large;c=
 
 Had I approached my discovery in a more noble spirit, had I risked the experiment while under the empire of generous or pious aspirations, all must have been otherwise, and from these agonies of death and birth, I had come forth an angel instead of a fiend.
 e:jekyll=unhappy
@@ -2519,7 +2519,7 @@ But in the hands of Edward Hyde, they soon began to turn towards the monstrous.
 e:jekyll=serious
 
 When I would come back from these excursions, I was often plunged into a kind of wonder at my vicarious depravity.
-e:jekyll=thinking;b=past-lab
+e:jekyll=thinking;b=jekyll-large
 
 This familiar that I called out of my own soul, and sent forth alone to do his good pleasure, was a being inherently malign and villainous; his every act and thought centered on self; drinking pleasure with bestial avidity from any degree of torture to another; relentless like a man of stone.
 
@@ -2687,7 +2687,7 @@ I ran to the house in Soho, and (to make assurance doubly sure) destroyed my pap
 e:jekyll=excited
 
 Hyde had a song upon his lips as he compounded the draught, and as he drank it, pledged the dead man.
-e:hyde=happy;b=past-lab
+e:hyde=happy;b=jekyll-large
 
 The pangs of transformation had not done tearing him, before Henry Jekyll, with streaming tears of gratitude and remorse, had fallen upon his knees and lifted his clasped hands to God.
 e:jekyll=crying
@@ -2855,7 +2855,7 @@ I was stepping leisurely across the court after breakfast, drinking the chill of
 e:hyde=angry;b=think
 
 It took on this occasion a double dose to recall me to myself; and alas, six hours after, as I sat looking sadly in the fire, the pangs returned, and the drug had to be re-administered.
-e:jekyll=unhappy;b=past-lab
+e:jekyll=unhappy;b=jekyll-large
 
 In short, from that day forth it seemed only by a great effort as of gymnastics, and only under the immediate stimulation of the drug, that I was able to wear the countenance of Jekyll.
 e:jekyll=weary
@@ -2903,7 +2903,7 @@ It is useless, and the time awfully fails me, to prolong this description; no on
 e:jekyll=weary;c=
 
 My provision of the salt, which had never been renewed since the date of the first experiment, began to run low.
-b=past-lab
+b=jekyll-large
 
 I sent out for a fresh supply, and mixed the draught; the ebullition followed, and the first change of colour, not the second; I drank it and it was without efficiency.
 e:jekyll=surprised
