@@ -86,7 +86,7 @@ e:enfield=
 e:enfield=serious;b=story-2
 
 “Well, sir, the two ran into one another naturally enough at the corner; and then came the horrible part of the thing;”
-m=joined
+
 
 “for the man trampled calmly over the child’s body and left her screaming on the ground.”
 b=action;m=
@@ -1820,13 +1820,13 @@ s=none;e:hyde=fearful
 s=utterson;e:utterson=angry
 
 Poole swung the axe over his shoulder; the blow shook the building, and the red baize door leaped against the lock and hinges.
-s=none;e:poole=angry;b=axe
+s=none;e:poole=angry;b=action
 
 A dismal screech, as of mere animal terror, rang from the cabinet.
-e:hyde=fearful
+e:hyde=fearful;b=think
 
 Up went the axe again, and again the panels crashed and the frame bounded; four times the blow fell; but the wood was tough and the fittings were of excellent workmanship; and it was not until the fifth, that the lock burst in sundar and the wreck of the door fell inwards on the carpet.<e>Here's Raskolnikov!</e>
-
+b=action
 
 The besiegers, appalled by their own riot and the stillness that had succeeded, stood back a little and peered in.
 e:poole=surprised;e:utterson=surprised;b=think
@@ -1834,11 +1834,8 @@ e:poole=surprised;e:utterson=surprised;b=think
 There lay the cabinet before their eyes in the quiet lamplight, a good fire glowing and chattering on the hearth, the kettle singing its thin strain, a drawer or two open, papers neatly set forth on the business table, and nearer the fire, the things laid out for tea: the quietest room, you would have said, and, but for the glazed presses full of chemicals, the most commonplace that night in London.
 
 
-Right in the midst there lay the body of a man sorely contorted and still twitching.
-b=hyde-body
-
-They drew near on tiptoe, turned it on its back and beheld the face of Edward Hyde.
-e:utterson=serious;e:poole=serious
+Right in the midst there lay the body of a man sorely contorted and still twitching. They drew near on tiptoe, turned it on its back and beheld the face of Edward Hyde.
+e:utterson=serious;e:poole=serious;b=hyde-body
 
 He was dressed in clothes far too large for him, clothes of the doctor’s bigness; the cords of his face still moved with a semblance of life, but life was quite gone: and by the crushed phial in the hand and the strong smell of kernels that hung upon the air, Utterson knew that he was looking on the body of a self-destroyer.
 
