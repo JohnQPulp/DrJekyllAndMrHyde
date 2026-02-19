@@ -2270,7 +2270,7 @@ s=hyde;e:hyde=serious
 e:hyde=smirking
 
 He put the glass to his lips and drank at one gulp.
-s=;b=light;f:b:light=blur(2px)
+s=;b=think;f:c:hyde=blur(5px);f:c:jekyll=blur(5px)
 
 A cry followed; he reeled, staggered, clutched at the table and held on, staring with injected eyes, gasping with open mouth; and as I looked there came, I thought, a change﻿—he seemed to swell﻿—his face became suddenly black and the features seemed to melt and alter﻿—and the next moment, I had sprung to my feet and leaped back against the wall, my arm raised to shield me from that prodigy, my mind submerged in terror.
 s=none;e:hyde=;e:lanyon=fearful;c=hyde;x:hyde=transform
@@ -2282,7 +2282,7 @@ for there before my eyes﻿—pale and shaken, and half fainting, and groping be
 s=;c=jekyll;x:jekyll=transform;e:jekyll=
 
 What he told me in the next hour, I cannot bring my mind to set on paper.
-b=consulting-room;f:b:consulting-room=blur(3px);c=
+b=consulting-room;f:b:consulting-room=blur(5px);c=
 
 I saw what I saw, I heard what I heard, and my soul sickened at it; and yet now when that sight has faded from my eyes, I ask myself if I believe it, and I cannot answer.
 e:lanyon=upset
