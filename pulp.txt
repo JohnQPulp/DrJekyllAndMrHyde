@@ -5,7 +5,7 @@ n:author=;t=author;b=title;z:author=75,33,1
 r=title
 
 Mr. Utterson the lawyer was a man of a rugged countenance that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary and yet somehow lovable.
-n:utterson=Mr. Utterson;e:utterson=serious;b=light;c=utterson
+n:utterson=Mr. Utterson;e:utterson=serious;b=utterson-dining;v=100,125
 
 At friendly meetings, and when the wine was to his taste, something eminently human beaconed from his eye; something indeed which never found its way into his talk, but which spoke not only in these silent symbols of the after-dinner face, but more often and loudly in the acts of his life.
 e:utterson=happy;c=;b=utterson-dining
@@ -14,10 +14,10 @@ He was austere with himself; drank gin when he was alone, to mortify a taste for
 e:utterson=serious
 
 But he had an approved tolerance for others; sometimes wondering, almost with envy, at the high pressure of spirits involved in their misdeeds; and in any extremity inclined to help rather than to reprove.
-e:utterson=contemplative
+e:utterson=thinking
 
-“I incline to Cain’s heresy,” he used to say quaintly: “I let my brother go to the devil in his own way.”<e>Based <book>East of Eden</book> reference. (And speaking of Steinbeck, did you know Stevenson too spent time in Monterey? So along with writing <book>Treasure Island</book>, he really deserves much of the blame for influencing <book>Cup of Gold</book> into existence.)</e>
-s=utterson
+“I incline to Cain’s heresy,” he used to say quaintly: “I let my brother go to the devil in his own way.”<e>Based <book>East of Eden</book> reference. (Funny how Steinbeck ended up usurping Stevenson to become the author most famously associated with Monterey. Maybe it was revenge against <book>Treasure Island</book> after the failure of <book>Cup of Gold</book>.)</e>
+s=utterson;z:utterson=105,49,6
 
 In this character, it was frequently his fortune to be the last reputable acquaintance and the last good influence in the lives of downgoing men.
 s=none;e:utterson=serious
@@ -70,14 +70,20 @@ Tramps slouched into the recess and struck matches on the panels; children kept 
 Mr. Enfield and the lawyer were on the other side of the bystreet; but when they came abreast of the entry, the former lifted up his cane and pointed.
 x:enfield=hat;x:utterson=hat
 
-“Did you ever remark that door?” he asked; and when his companion had replied in the affirmative, “It is connected in my mind,” added he, “with a very odd story.”<e>Ah! A frame narrative! This book <i>is</i> scary.</e>
-s=enfield;e:enfield=serious
+“Did you ever remark that door?” he asked;
+s=enfield;e:enfield=serious;z:enfield=100,49,5
+
+and when his companion had replied in the affirmative,
+s=;c=utterson
+
+“It is connected in my mind,” added he, “with a very odd story.”<e>Ah! A frame narrative! This book <i>is</i> scary.</e>
+s=enfield;e:enfield=thinking;c=
 
 “Indeed?” said Mr. Utterson, with a slight change of voice, “and what was that?”
-s=utterson;e:utterson=wary
+s=utterson;e:utterson=wary;c=utterson
 
 “Well, it was this way,” returned Mr. Enfield: “I was coming home from some place at the end of the world, about three o’clock of a black winter morning, and my way lay through a part of town where there was literally nothing to be seen but lamps.”
-s=enfield;e:enfield=neutral;b=story-1
+s=enfield;e:enfield=neutral;b=story-1;c=
 
 “Street after street, and all the folks asleep—street after street, all lighted up as if for a procession and all as empty as a church—till at last I got into that state of mind when a man listens and listens and begins to long for the sight of a policeman.”
 e:enfield=
@@ -95,10 +101,10 @@ b=action;m=
 e:enfield=wary
 
 “I gave a view halloa, took to my heels, collared my gentleman, and brought him back to where there was already quite a group about the screaming child.”
-e:enfield=serious;b=story-4
+e:enfield=serious;b=think
 
 “He was perfectly cool and made no resistance, but gave me one look, so ugly that it brought out the sweat on me like running.”
-e:enfield=wary
+e:enfield=wary;b=story-4
 
 “The people who had turned out were the girl’s own family; and pretty soon, the doctor, for whom she had been sent, put in his appearance.”
 
@@ -140,10 +146,10 @@ e:enfield=scowling;b=story-5
 e:enfield=serious;b=story-4
 
 “The next thing was to get the money; and where do you think he carried us but to that place with the door?—whipped out a key, went in, and presently came back with the matter of ten pounds in gold and a cheque for the balance on Coutts’s, drawn payable to bearer and signed with a name that I can’t mention, though it’s one of the points of my story, but it was a name at least very well known and often printed.”
-e:enfield=thinking;b=scaryhouse-ext
+e:enfield=thinking;b=scaryhouse-ext;f:b:scaryhouse-ext=blur(5px)
 
 “The figure was stiff; but the signature was good for more than that, if it was only genuine.”
-b=story-4
+b=story-4;f:b:scaryhouse-ext=
 
 “I took the liberty of pointing out to my gentleman that the whole business looked apocryphal, and that a man does not, in real life, walk into a cellar door at four in the morning and come out of it with another man’s cheque for close upon a hundred pounds.”
 e:enfield=serious
@@ -155,16 +161,16 @@ e:enfield=serious
 b=story-5;e:enfield=scowling
 
 “So we all set off, the doctor, and the child’s father, and our friend and myself, and passed the rest of the night in my chambers; and next day, when we had breakfasted, went in a body to the bank.”
-e:enfield=serious;b=scaryhouse-ext
+e:enfield=serious;b=think
 
 “I gave in the cheque myself, and said I had every reason to believe it was a forgery.”
-
+b=bank;f:b:bank=blur(5px)
 
 “Not a bit of it. The cheque was genuine.”
 e:enfield=contemplative
 
 “Tut-tut,” said Mr. Utterson.
-s=utterson;e:utterson=contemplative
+s=utterson;e:utterson=contemplative;b=scaryhouse-ext
 
 “I see you feel as I do,” said Mr. Enfield. “Yes, it’s a bad story.”
 s=enfield;e:enfield=serious
@@ -175,7 +181,7 @@ e:enfield=scowling
 “Black mail, I suppose; an honest man paying through the nose for some of the capers of his youth.”
 e:enfield=thinking
 
-“Black Mail House is what I call that place with the door, in consequence.”<e>♫Here's black mail! it never fails! it makes me want to post the bail!♫</e>
+“Black Mail House is what I call that place with the door, in consequence.”
 e:enfield=smirking
 
 “Though even that, you know, is far from explaining all,” he added, and with the words fell into a vein of musing.
@@ -205,7 +211,7 @@ s=enfield;e:enfield=serious
 “You sit quietly on the top of a hill; and away the stone goes, starting others; and presently some bland old bird (the last you would have thought of) is knocked on the head in his own back garden and the family have to change their name.”
 e:enfield=contemplative
 
-“No, sir, I make it a rule of mine: the more it looks like Queer Street, the less I ask.”<e>"Take, for instance, these newfangled rainbow crosswalks."</e>
+“No, sir, I make it a rule of mine: the more it looks like Queer Street, the less I ask.”
 e:enfield=smirking
 
 “A very good rule, too,” said the lawyer.
@@ -224,7 +230,7 @@ s=enfield;e:enfield=contemplative
 e:enfield=serious
 
 The pair walked on again for a while in silence;
-s=;b=bystreet;m=joined
+s=;b=bystreet;
 
 and then “Enfield,” said Mr. Utterson, “that’s a good rule of yours.”<e>Damnit Utterson, you've had like three lines of dialogue so far and are already repeating yourself.</e>
 s=utterson;e:utterson=serious;m=
