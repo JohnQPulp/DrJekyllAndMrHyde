@@ -1366,8 +1366,11 @@ e:utterson=weary
 ## Incident at the Window
 r=title
 
-It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the bystreet; and that when they came in front of the door, both stopped to gaze on it.
-e:utterson=neutral;e:enfield=neutral;b=scaryhouse-ext;x:utterson=hat;x:enfield=hat
+It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the bystreet;
+e:utterson=neutral;e:enfield=neutral;b=bystreet;x:utterson=hat;x:enfield=hat;m=joined
+
+and that when they came in front of the door, both stopped to gaze on it.
+b=scaryhouse-ext;m=
 
 “Well,” said Enfield, “that story’s at an end at least. We shall never see more of Mr. Hyde.”
 s=enfield;e:enfield=serious
@@ -1388,7 +1391,7 @@ s=utterson;e:utterson=
 e:utterson=wary
 
 The court was very cool and a little damp, and full of premature twilight, although the sky, high up overhead, was still bright with sunset.
-s=none
+s=none;b=light
 
 The middle one of the three windows was halfway open; and sitting close beside it, taking the air with an infinite sadness of mien, like some disconsolate prisoner, Utterson saw Dr. Jekyll.
 e:jekyll=unhappy;b=jekyll-window
@@ -1427,7 +1430,7 @@ They saw it but for a glimpse, for the window was instantly thrust down; but tha
 b=think
 
 In silence, too, they traversed the bystreet; and it was not until they had come into a neighbouring thoroughfare, where even upon a Sunday there were still some stirrings of life, that Mr. Utterson at last turned and looked at his companion.
-b=bystreet
+b=light
 
 They were both pale; and there was an answering horror in their eyes.
 e:utterson=fearful;e:enfield=fearful
