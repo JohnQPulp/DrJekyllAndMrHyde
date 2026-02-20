@@ -692,7 +692,7 @@ A close observer might have gathered that the topic was distasteful; but the doc
 s=none;e:jekyll=smirking
 
 “My poor Utterson,” said he, “you are unfortunate in such a client.”
-s=jekyll;e:jekyll=
+s=jekyll;e:jekyll=;z:jekyll=103
 
 “I never saw a man so distressed as you were by my will; unless it were that hidebound pedant, Lanyon, at what he called my scientific heresies.”
 e:jekyll=annoyed
@@ -766,8 +766,11 @@ e:jekyll=wary
 “I can’t pretend that I shall ever like him,” said the lawyer.
 s=utterson;e:utterson=serious
 
-“I don’t ask that,” pleaded Jekyll, laying his hand upon the other’s arm; “I only ask for justice; I only ask you to help him for my sake, when I am no longer here.”
-s=jekyll
+“I don’t ask that,” pleaded Jekyll, laying his hand upon the other’s arm;
+s=jekyll;e:jekyll=contemplative
+
+“I only ask for justice; I only ask you to help him for my sake, when I am no longer here.”
+
 
 Utterson heaved an irrepressible sigh.
 s=none;e:utterson=weary
