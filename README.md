@@ -1,8 +1,14 @@
 ### *Dr. Jekyll and Mr. Hyde: The Visual Novel*
 
-This repository will contain the metadata and images for the visual novel transformation (pulpification) of Robert Louis Stevenson's book *Dr. Jekyll and Mr. Hyde*.
+This repository contains the metadata and images for the visual novel transformation (pulpification) of Robert Louis Stevenson's book *Dr. Jekyll and Mr. Hyde*.
 
-This VN is a work-in-progress.
+You can read it in a few ways:
+
+* Online at https://publicdomainpulp.com/vn/DrJekyllAndMrHyde
+* Locally at http://localhost:1929/vn/DrJekyllAndMrHyde running https://github.com/JohnQPulp/PublicDomainPulp (ASP.NET/C#) from source
+* Locally via static html file using the tool https://github.com/JohnQPulp/Pulpifier (C#) from source
+
+![Preview](images/preview.webp)
 
 ### License Information
 
