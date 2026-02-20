@@ -2120,7 +2120,7 @@ I rose accordingly from table, got into a hansom, and drove straight to Jekyll�
 b=jekyll-ext
 
 The butler was awaiting my arrival; he had received by the same post as mine a registered letter of instruction, and had sent at once for a locksmith and a carpenter.
-e:lanyon=neutral
+e:lanyon=neutral;b=jekyll-hall
 
 The tradesmen came while we were yet speaking; and we moved in a body to old Dr. Denman’s surgical theatre, from which (as you are doubtless aware) Jekyll’s private cabinet is most conveniently entered.
 b=cabinet-door
@@ -2129,10 +2129,13 @@ The door was very strong, the lock excellent; the carpenter avowed he would have
 e:lanyon=weary
 
 But this last was a handy fellow, and after two hours’ work, the door stood open.
-b=light
+b=jekyll-large
 
-The press marked E was unlocked; and I took out the drawer, had it filled up with straw and tied in a sheet, and returned with it to Cavendish Square.
+The press marked E was unlocked; and I took out the drawer, had it filled up with straw and tied in a sheet,
+m=joined
 
+and returned with it to Cavendish Square.
+m=;b=lanyon-dining
 
 Here I proceeded to examine its contents.
 b=lanyon-dining
@@ -2177,7 +2180,7 @@ Twelve o’clock had scarce rung out over London, ere the knocker sounded very g
 b=light
 
 I went myself at the summons, and found a small man crouching against the pillars of the portico.
-c=hyde;x:hyde=loose
+x:hyde=loose
 
 “Are you come from Dr. Jekyll?” I asked.
 s=lanyon;e:lanyon=wary
@@ -2195,7 +2198,7 @@ Here, at last, I had a chance of clearly seeing him. I had never set eyes on him
 
 
 He was small, as I have said; I was struck besides with the shocking expression of his face, with his remarkable combination of great muscular activity and great apparent debility of constitution, and﻿—last but not least﻿—with the odd, subjective disturbance caused by his neighbourhood.
-c=hyde;x:hyde=loose;e:hyde=nervous
+x:hyde=loose;e:hyde=nervous
 
 This bore some resemblance to incipient rigour, and was accompanied by a marked sinking of the pulse.
 c=
@@ -2203,8 +2206,11 @@ c=
 At the time, I set it down to some idiosyncratic, personal distaste, and merely wondered at the acuteness of the symptoms; but I have since had reason to believe the cause to lie much deeper in the nature of man, and to turn on some nobler hinge than the principle of hatred.
 e:lanyon=thinking
 
-This person (who had thus, from the first moment of his entrance, struck in me what I can only describe as a disgustful curiosity) was dressed in a fashion that would have made an ordinary person laughable: his clothes, that is to say, although they were of rich and sober fabric, were enormously too large for him in every measurement﻿—the trousers hanging on his legs and rolled up to keep them from the ground, the waist of the coat below his haunches, and the collar sprawling wide upon his shoulders.
-e:lanyon=confused;c=hyde;e:hyde=scowling
+This person (who had thus, from the first moment of his entrance, struck in me what I can only describe as a disgustful curiosity) was dressed in a fashion that would have made an ordinary person laughable:
+e:lanyon=confused;e:hyde=scowling
+
+his clothes, that is to say, although they were of rich and sober fabric, were enormously too large for him in every measurement﻿—the trousers hanging on his legs and rolled up to keep them from the ground, the waist of the coat below his haunches, and the collar sprawling wide upon his shoulders.
+
 
 Strange to relate, this ludicrous accoutrement was far from moving me to laughter.
 c=
@@ -2219,7 +2225,7 @@ My visitor was, indeed, on fire with sombre excitement.
 e:hyde=serious
 
 “Have you got it?” he cried. “Have you got it?”
-s=hyde;c=hyde
+s=hyde;c=
 
 And so lively was his impatience that he even laid his hand upon my arm and sought to shake me.
 s=none;c=
@@ -2228,7 +2234,7 @@ I put him back, conscious at his touch of a certain icy pang along my blood.
 e:lanyon=fearful
 
 “Come, sir,” said I. “You forget that I have not yet the pleasure of your acquaintance. Be seated, if you please.”
-s=lanyon;e:lanyon=serious;c=hyde;e:hyde=scowling
+s=lanyon;e:lanyon=serious;c=;e:hyde=scowling
 
 And I showed him an example, and sat down myself in my customary seat and with as fair an imitation of my ordinary manner to a patient, as the lateness of the hour, the nature of my preoccupations, and the horror I had of my visitor, would suffer me to muster.
 s=none;c=
@@ -2243,7 +2249,7 @@ e:hyde=serious
 e:hyde=nervous
 
 He paused and put his hand to his throat, and I could see, in spite of his collected manner, that he was wrestling against the approaches of the hysteria﻿—
-s=;m=joined;m=nospace
+s=;m=nospace;m=allowbreak
 
 “I understood, a drawer﻿ ﻿…”
 e:hyde=nervous;s=hyde;m=
@@ -2317,14 +2323,17 @@ e:hyde=smirking
 He put the glass to his lips and drank at one gulp.
 s=;b=think;f:c:hyde=blur(5px);f:c:jekyll=blur(5px)
 
-A cry followed; he reeled, staggered, clutched at the table and held on, staring with injected eyes, gasping with open mouth; and as I looked there came, I thought, a change﻿—he seemed to swell﻿—his face became suddenly black and the features seemed to melt and alter﻿—and the next moment, I had sprung to my feet and leaped back against the wall, my arm raised to shield me from that prodigy, my mind submerged in terror.
+A cry followed; he reeled, staggered, clutched at the table and held on, staring with injected eyes, gasping with open mouth;
+
+
+and as I looked there came, I thought, a change﻿—he seemed to swell﻿—his face became suddenly black and the features seemed to melt and alter﻿—and the next moment, I had sprung to my feet and leaped back against the wall, my arm raised to shield me from that prodigy, my mind submerged in terror.
 s=none;e:hyde=;e:lanyon=fearful;c=hyde;x:hyde=transform
 
 “O God!” I screamed, and “O God!” again and again;
 s=lanyon;c=
 
 for there before my eyes﻿—pale and shaken, and half fainting, and groping before him with his hands, like a man restored from death﻿—there stood Henry Jekyll!
-s=;c=jekyll;x:jekyll=transform;e:jekyll=
+s=;c=jekyll;x:jekyll=transform;e:jekyll=;f:c:jekyll=
 
 What he told me in the next hour, I cannot bring my mind to set on paper.
 b=consulting-room;f:b:consulting-room=blur(5px);c=
