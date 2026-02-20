@@ -1193,19 +1193,19 @@ The death of Sir Danvers was, to his way of thinking, more than paid for by the 
 e:utterson=thinking
 
 Now that that evil influence had been withdrawn, a new life began for Dr. Jekyll.
-b=light
+b=jekyll-ext
 
 He came out of his seclusion, renewed relations with his friends, became once more their familiar guest and entertainer; and whilst he had always been known for charities, he was now no less distinguished for religion.
-e:jekyll=happy;c=jekyll
+e:jekyll=happy;c=
 
 He was busy, he was much in the open air, he did good; his face seemed to open and brighten, as if with an inward consciousness of service; and for more than two months, the doctor was at peace.
 c=
 
 On the 8th of January Utterson had dined at the doctor’s with a small party; Lanyon had been there; and the face of the host had looked from one to the other as in the old days when the trio were inseparable friends.
-e:lanyon=happy;e:utterson=happy;b=jekyll-dining
+e:lanyon=happy;e:utterson=happy;b=jekyll-fire
 
 On the 12th, and again on the 14th, the door was shut against the lawyer.
-e:utterson=confused;b=light
+e:utterson=confused;b=jekyll-door-ext
 
 “The doctor was confined to the house,” Poole said, “and saw no one.”
 s=poole;e:poole=serious
@@ -1213,13 +1213,22 @@ s=poole;e:poole=serious
 On the 15th, he tried again, and was again refused; and having now been used for the last two months to see his friend almost daily, he found this return of solitude to weigh upon his spirits.
 s=none;e:utterson=unhappy
 
-The fifth night, he had in Guest to dine with him; and the sixth he betook himself to Dr. Lanyon’s.
-e:utterson=neutral
+The fifth night, he had in Guest to dine with him;
+e:utterson=neutral;b=utterson-fire-close;m=joined
 
-There at least he was not denied admittance; but when he came in, he was shocked at the change which had taken place in the doctor’s appearance.
-e:utterson=surprised;x:lanyon=dying;b=lanyon-bedroom
+and the sixth he betook himself to Dr. Lanyon’s.
+b=lanyon-ext-night;m=
 
-He had his death-warrant written legibly upon his face. The rosy man had grown pale; his flesh had fallen away; he was visibly balder and older; and yet it was not so much these tokens of a swift physical decay that arrested the lawyer’s notice, as a look in the eye and quality of manner that seemed to testify to some deep-seated terror of the mind.
+There at least he was not denied admittance;
+m=joined
+
+but when he came in, he was shocked at the change which had taken place in the doctor’s appearance.
+e:utterson=surprised;x:lanyon=dying;b=lanyon-bedroom;m=
+
+He had his death-warrant written legibly upon his face.
+
+
+The rosy man had grown pale; his flesh had fallen away; he was visibly balder and older; and yet it was not so much these tokens of a swift physical decay that arrested the lawyer’s notice, as a look in the eye and quality of manner that seemed to testify to some deep-seated terror of the mind.
 e:lanyon=weary
 
 It was unlikely that the doctor should fear death; and yet that was what Utterson was tempted to suspect.
@@ -1241,7 +1250,7 @@ e:lanyon=weary
 e:lanyon=unhappy
 
 “Jekyll is ill, too,” observed Utterson. “Have you seen him?”
-s=utterson;e:utterson=wary
+s=utterson;e:utterson=unhappy
 
 But Lanyon’s face changed, and he held up a trembling hand.
 s=none;e:lanyon=fearful
@@ -1279,14 +1288,17 @@ e:lanyon=unhappy
 “And in the meantime, if you can sit and talk with me of other things, for God’s sake, stay and do so; but if you cannot keep clear of this accursed topic, then, in God’s name, go, for I cannot bear it.”
 e:lanyon=unhappy
 
-As soon as he got home, Utterson sat down and wrote to Jekyll, complaining of his exclusion from the house, and asking the cause of this unhappy break with Lanyon; and the next day brought him a long answer, often very pathetically worded, and sometimes darkly mysterious in drift.
-s=none;e:utterson=thinking;b=utterson-business
+As soon as he got home, Utterson sat down and wrote to Jekyll, complaining of his exclusion from the house, and asking the cause of this unhappy break with Lanyon;
+s=none;e:utterson=thinking;b=utterson-business;m=joined
+
+and the next day brought him a long answer, often very pathetically worded, and sometimes darkly mysterious in drift.
+o=letter;m=
 
 The quarrel with Lanyon was incurable.
-
+o=
 
 “I do not blame our old friend,” Jekyll wrote, “but I share his view that we must never meet.”
-t=jekyll;e:jekyll=unhappy;o=letter
+t=;e:jekyll=unhappy;o=letter
 
 “I mean from henceforth to lead a life of extreme seclusion; you must not be surprised, nor must you doubt my friendship, if my door is often shut even to you.”
 
@@ -1316,7 +1328,7 @@ e:utterson=serious;b=utterson-business
 e:utterson=fearful
 
 “I have buried one friend today,” he thought: “what if this should cost me another?”
-t=utterson;e:utterson=wary
+t=utterson;e:utterson=unhappy
 
 And then he condemned the fear as a disloyalty, and broke the seal.
 s=none;t=
