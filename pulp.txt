@@ -2512,7 +2512,7 @@ b=jekyll-large-mirrorless;m=joined;f:c:hyde=blur(5px)
 once more suffered the pangs of dissolution,
 b=think;c=hyde;x:hyde=transform;e:hyde=
 
-and came to myself once more with the character, the stature and the face of Henry Jekyll.<e>The reversal potion worked! That puts you one step ahead of that <book>Invisible Man</book> dumbass.</e>
+and came to myself once more with the character, the stature and the face of Henry Jekyll.<e>The reversal potion worked. That at least puts Hyde one step ahead of that <book>Invisible Man</book> dumbass.</e>
 m=;c=jekyll;x:jekyll=transform;e:jekyll=
 
 That night I had come to the fatal crossroads.
@@ -2998,5 +2998,5 @@ e:jekyll=weary
 Here then, as I lay down the pen and proceed to seal up my confession, I bring the life of that unhappy Henry Jekyll to an end.
 b=think
 
-<e>The End.</e>
+<e>The End. (So much for Utterson being the protagonist lol.)</e>
 b=title
