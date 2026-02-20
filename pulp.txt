@@ -781,7 +781,7 @@ s=utterson;e:utterson=contemplative
 ## The Carew Murder Case
 r=title
 
-Nearly a year later, in the month of October, 18—, London was startled by a crime of singular ferocity and rendered all the more notable by the high position of the victim. The details were few and startling.<e>Stevenson, you fiend! Using "startled" in two back-to-back sentences.</e>
+Nearly a year later, in the month of October, 18—, London was startled by a crime of singular ferocity and rendered all the more notable by the high position of the victim. The details were few and startling.<e>Stevenson, you fiend! You can't use "startled" in two back-to-back sentences!</e>
 t=author;b=think
 
 A maid servant living alone in a house not far from the river, had gone upstairs to bed about eleven.
@@ -854,7 +854,7 @@ b=station
 s=utterson;e:utterson=unhappy
 
 “Good God, sir,” exclaimed the officer, “is it possible?”
-n:officer=Officer;s=officer;e:officer=surprised
+n:officer=Officer;s=officer;e:officer=surprised;z:officer=95
 
 And the next moment his eye lighted up with professional ambition.
 s=none;e:officer=
@@ -883,7 +883,10 @@ s=utterson;m=
 It was by this time about nine in the morning, and the first fog of the season.
 s=none;b=fog-wide
 
-A great chocolate-coloured pall lowered over heaven, but the wind was continually charging and routing these embattled vapours; so that as the cab crawled from street to street, Mr. Utterson beheld a marvelous number of degrees and hues of twilight; for here it would be dark like the back-end of evening; and there would be a glow of a rich, lurid brown, like the light of some strange conflagration; and here, for a moment, the fog would be quite broken up, and a haggard shaft of daylight would glance in between the swirling wreaths.
+A great chocolate-coloured pall lowered over heaven, but the wind was continually charging and routing these embattled vapours; so that as the cab crawled from street to street, Mr. Utterson beheld a marvelous number of degrees and hues of twilight;
+
+
+for here it would be dark like the back-end of evening; and there would be a glow of a rich, lurid brown, like the light of some strange conflagration; and here, for a moment, the fog would be quite broken up, and a haggard shaft of daylight would glance in between the swirling wreaths.
 
 
 The dismal quarter of Soho seen under these changing glimpses, with its muddy ways, and slatternly passengers, and its lamps, which had never been extinguished or had been kindled afresh to combat this mournful reinvasion of darkness, seemed, in the lawyer’s eyes, like a district of some city in a nightmare.
@@ -907,17 +910,23 @@ e:housekeeper=neutral
 Yes, she said, this was Mr. Hyde’s, but he was not at home; he had been in that night very late, but had gone away again in less than an hour; there was nothing strange in that; his habits were very irregular, and he was often absent; for instance, it was nearly two months since she had seen him till yesterday.
 
 
-“Very well, then, we wish to see his rooms,” said the lawyer; and when the woman began to declare it was impossible, “I had better tell you who this person is,” he added.
+“Very well, then, we wish to see his rooms,” said the lawyer;
 s=utterson;e:utterson=serious
 
+and when the woman began to declare it was impossible,
+s=
+
+“I had better tell you who this person is,” he added.
+s=utterson;e:utterson=thinking
+
 “This is Inspector Newcomen of Scotland Yard.”
-n:officer=Inspector Newcomen
+n:officer=Inspector Newcomen;e:utterson=serious
 
 A flash of odious joy appeared upon the woman’s face.
 s=none;e:housekeeper=smirking
 
 “Ah!” said she, “he is in trouble! What has he done?”
-s=housekeeper
+s=housekeeper;z:housekeeper=86
 
 Mr. Utterson and the inspector exchanged glances.
 s=none
