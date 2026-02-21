@@ -1585,11 +1585,11 @@ s=poole
 A voice answered from within:
 s=
 
-<span class='dialogue'>“Tell him I cannot see anyone,”</span> it said complainingly.
-
+“Tell him I cannot see anyone,” it said complainingly.
+m=dialogue
 
 “Thank you, sir,” said Poole, with a note of something like triumph in his voice;
-s=poole;e:poole=serious
+s=poole;e:poole=serious;m=
 
 and taking up his candle, he led Mr. Utterson back across the yard and into the great kitchen,
 b=light;s=;m=joined
@@ -1855,11 +1855,11 @@ s=none
 “I give you fair warning, our suspicions are aroused, and I must and shall see you,” he resumed; “if not by fair means, then by foul—if not of your consent, then by brute force!”
 s=utterson
 
-<span class='dialogue'>“Utterson,”</span> said the voice, <span class='dialogue'>“for God’s sake, have mercy!”</span>
-s=none;e:hyde=fearful
+“Utterson,” said the voice, “for God’s sake, have mercy!”
+s=none;e:hyde=fearful;m=dialogue
 
 “Ah, that’s not Jekyll’s voice—it’s Hyde’s!” cried Utterson. “Down with the door, Poole.”
-s=utterson;e:utterson=angry
+s=utterson;e:utterson=angry;m=
 
 Poole swung the axe over his shoulder; the blow shook the building, and the red baize door leaped against the lock and hinges.
 s=none;e:poole=angry;b=action
