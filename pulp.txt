@@ -1,5 +1,5 @@
 <div class='center'><span class='big italics'>The Strange Case of Dr. Jekyll and Mr. Hyde</span> by&nbsp;Robert&nbsp;Louis&nbsp;Stevenson</div><e>Notice how the author image switches between two different sprites. Pretty clever, huh?</e>
-n:author=;t=author;b=title;z:author=75,33,1
+n:author=;t=author;b=title;z:author=95,52,;z:author-abased=60,30
 
 ## Story of the Door
 r=title
@@ -71,7 +71,7 @@ Mr. Enfield and the lawyer were on the other side of the bystreet; but when they
 x:enfield=hat;x:utterson=hat
 
 “Did you ever remark that door?” he asked;
-s=enfield;e:enfield=serious;z:enfield=100,49,5
+s=enfield;e:enfield=serious;z:enfield=100,49,6
 
 and when his companion had replied in the affirmative,
 s=;c=utterson
@@ -341,7 +341,7 @@ The solemn butler knew and welcomed him; he was subjected to no stage of delay, 
 t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral;b=lanyon-dining;x:utterson=
 
 This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner. At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands.
-e:lanyon=happy;c=lanyon;v=100,125;z:lanyon=97
+e:lanyon=happy;c=lanyon;v=100,125;z:lanyon=97,47,2
 
 The geniality, as was the way of the man, was somewhat theatrical to the eye; but it reposed on genuine feeling. For these two were old friends, old mates both at school and college, both thorough respectors of themselves and of each other, and, what does not always follow, men who thoroughly enjoyed each other’s company.
 c=
@@ -461,7 +461,7 @@ But he made straight for the door, crossing the roadway to save time; and as he 
 
 
 Mr. Utterson stepped out and touched him on the shoulder as he passed.
-x:hyde=back;v=100,115;z:hyde=90
+x:hyde=back;v=100,115;z:hyde=90,,2
 
 “Mr. Hyde, I think?”
 s=utterson
@@ -854,7 +854,7 @@ b=station
 s=utterson;e:utterson=unhappy
 
 “Good God, sir,” exclaimed the officer, “is it possible?”
-n:officer=Officer;s=officer;e:officer=surprised;z:officer=95
+n:officer=Officer;s=officer;e:officer=surprised;z:officer=95,,2
 
 And the next moment his eye lighted up with professional ambition.
 s=none;e:officer=
@@ -926,7 +926,7 @@ A flash of odious joy appeared upon the woman’s face.
 s=none;e:housekeeper=smirking
 
 “Ah!” said she, “he is in trouble! What has he done?”
-s=housekeeper;z:housekeeper=86
+s=housekeeper;z:housekeeper=86,,4
 
 Mr. Utterson and the inspector exchanged glances.
 s=none
@@ -1115,7 +1115,7 @@ The clerk, besides, was a man of counsel; he could scarce read so strange a docu
 s=utterson
 
 “Yes, sir, indeed. It has elicited a great deal of public feeling,” returned Guest. “The man, of course, was mad.”
-s=guest;e:guest=serious;z:guest=94
+s=guest;e:guest=serious;z:guest=94,,-1
 
 “I should like to hear your views on that,” replied Utterson.
 s=utterson;e:utterson=contemplative
@@ -1535,7 +1535,7 @@ Thereupon the servant knocked in a very guarded manner; the door was opened on t
 s=none;b=jekyll-door-chain;m=
 
 “Is that you, Poole?”
-n:housemaid=?;s=housemaid;e:housemaid=nervous;m=;z:housemaid=88
+n:housemaid=?;s=housemaid;e:housemaid=nervous;m=;z:housemaid=88,,2
 
 “It’s all right,” said Poole. “Open the door.”
 s=poole;e:poole=serious
@@ -1598,7 +1598,7 @@ where the fire was out and the beetles were leaping on the floor.
 b=jekyll-kitchen;m=
 
 “Sir,” he said, looking Mr. Utterson in the eyes, “was that my master’s voice?”
-b=jekyll-kitchen;s=poole;c=poole;v=100,110
+b=jekyll-kitchen;s=poole;c=poole;v=100,140
 
 “It seems much changed,” replied the lawyer, very pale, but giving look for look.
 s=utterson;e:utterson=nervous
