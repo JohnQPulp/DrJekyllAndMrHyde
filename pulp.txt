@@ -476,19 +476,19 @@ s=none;e:hyde=serious
 s=hyde;m=
 
 “I see you are going in,” returned the lawyer. “I am an old friend of Dr. Jekyll’s﻿—Mr. Utterson of Gaunt Street﻿—you must have heard my name; and meeting you so conveniently, I thought you might admit me.”
-s=utterson
+s=utterson;i:hyde=
 
 “You will not find Dr. Jekyll; he is from home,” replied Mr. Hyde, blowing in the key.
 s=hyde
 
 And then suddenly, but still without looking up,
-s=;m=joined
+s=;m=joined;i:hyde=
 
 “How did you know me?” he asked.
 e:hyde=suspicious;s=hyde;m=
 
 “On your side,” said Mr. Utterson, “will you do me a favour?”
-s=utterson
+s=utterson;i:hyde=
 
 “With pleasure,” replied the other. “What shall it be?”
 s=hyde;e:hyde=smirking
@@ -521,13 +521,13 @@ e:utterson=serious;t=
 s=hyde;e:hyde=serious;t=;c=hyde
 
 “By description,” was the reply.
-s=utterson
+s=utterson;i:hyde=
 
 “Whose description?”
 s=hyde;e:hyde=suspicious
 
 “We have common friends,” said Mr. Utterson.
-s=utterson;e:utterson=wary
+s=utterson;e:utterson=wary;i:hyde=
 
 “Common friends?” echoed Mr. Hyde, a little hoarsely.
 s=hyde
@@ -536,7 +536,7 @@ s=hyde
 s=hyde;e:hyde=annoyed
 
 “Jekyll, for instance,” said the lawyer.
-s=utterson
+s=utterson;i:hyde=
 
 “He never told you,” cried Mr. Hyde, with a flush of anger.
 s=hyde;e:hyde=point
@@ -545,7 +545,7 @@ s=hyde;e:hyde=point
 e:hyde=angry
 
 “Come,” said Mr. Utterson, “that is not fitting language.”
-s=utterson;e:utterson=serious
+s=utterson;e:utterson=serious;i:hyde=
 
 The other snarled aloud into a savage laugh;
 e:hyde=smirking;m=joined;s=
@@ -1601,7 +1601,7 @@ b=jekyll-kitchen;m=
 b=jekyll-kitchen;s=poole;c=poole;v=100,140
 
 “It seems much changed,” replied the lawyer, very pale, but giving look for look.
-s=utterson;e:utterson=nervous
+s=utterson;e:utterson=nervous;i:poole=
 
 “Changed? Well, yes, I think so,” said the butler.
 s=poole;e:poole=contemplative
@@ -1613,10 +1613,10 @@ e:poole=thinking
 e:poole=angry
 
 “This is a very strange tale, Poole; this is rather a wild tale, my man,” said Mr. Utterson, biting his finger.
-s=utterson;e:utterson=wary
+s=utterson;e:utterson=wary;i:poole=
 
 “Suppose it were as you suppose, supposing Dr. Jekyll to have been—well, murdered, what could induce the murderer to stay? That won’t hold water; it doesn’t commend itself to reason.”
-
+;i:poole=
 
 “Well, Mr. Utterson, you are a hard man to satisfy, but I’ll do it yet,” said Poole.
 s=poole;e:poole=serious
@@ -1634,7 +1634,7 @@ e:poole=nervous
 
 
 “Have you any of these papers?” asked Mr. Utterson.
-s=utterson;e:utterson=serious
+s=utterson;e:utterson=serious;i:poole=
 
 Poole felt in his pocket and handed out a crumpled note, which the lawyer, bending nearer to the candle, carefully examined.
 s=none;c=
@@ -1670,7 +1670,7 @@ and then, with another voice, “But what matters hand of write,” he said. “
 s=poole;e:poole=angry;m=
 
 “Seen him?” repeated Mr. Utterson. “Well?”
-s=utterson;e:utterson=surprised
+s=utterson;e:utterson=surprised;i:poole=
 
 “That’s it!” said Poole. “It was this way. I came suddenly into the theatre from the garden. It seems he had slipped out to look for this drug or whatever it is; for the cabinet door was open, and there he was at the far end of the room digging among the crates.”
 s=poole;e:poole=point
@@ -1724,7 +1724,7 @@ s=utterson;e:poole=
 s=poole;e:poole=serious
 
 “That’s very well said,” returned the lawyer; “and whatever comes of it, I shall make it my business to see you are no loser.”
-s=utterson
+s=utterson;i:poole=
 
 “There is an axe in the theatre,” continued Poole; “and you might take the kitchen poker for yourself.”
 s=poole
@@ -1739,13 +1739,13 @@ s=utterson;e:utterson=serious;c=poole
 s=poole
 
 “It is well, then, that we should be frank,” said the other.
-s=utterson
+s=utterson;i:poole=
 
 “We both think more than we have said; let us make a clean breast.”
-e:utterson=contemplative
+e:utterson=contemplative;i:poole=
 
 “This masked figure that you saw, did you recognise it?”
-e:utterson=serious
+e:utterson=serious;i:poole=
 
 “Well, sir, it went so quick, and the creature was so doubled up, that I could hardly swear to that,” was the answer.
 s=poole;e:poole=wary
@@ -1760,13 +1760,13 @@ e:poole=serious
 
 
 “Yes,” said the lawyer, “I once spoke with him.”
-s=utterson;e:utterson=contemplative
+s=utterson;e:utterson=contemplative;i:poole=
 
 “Then you must know as well as the rest of us that there was something queer about that gentleman—something that gave a man a turn—I don’t know rightly how to say it, sir, beyond this: that you felt it in your marrow kind of cold and thin.”
 s=poole;e:poole=nervous
 
 “I own I felt something of what you describe,” said Mr. Utterson.
-s=utterson;e:utterson=unhappy
+s=utterson;e:utterson=unhappy;i:poole=
 
 “Quite so, sir,” returned Poole.
 s=poole
@@ -1778,10 +1778,10 @@ e:poole=fearful
 e:poole=serious
 
 “Aye, aye,” said the lawyer. “My fears incline to the same point. Evil, I fear, founded—evil was sure to come—of that connection.”
-s=utterson;e:utterson=serious
+s=utterson;e:utterson=serious;i:poole=
 
 “Aye, truly, I believe you; I believe poor Harry is killed; and I believe his murderer (for what purpose, God alone can tell) is still lurking in his victim’s room. Well, let our name be vengeance. Call Bradshaw.”
-
+;i:poole=
 
 The footman came at the summons, very white and nervous.
 s=none;n:bradshaw=Bradshaw;e:bradshaw=nervous;c=
