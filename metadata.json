@@ -7,10 +7,7 @@
   "words": 25770,
   "pulpDate": "2026-02-19",
   "repo": "https://github.com/JohnQPulp/DrJekyllAndMrHyde",
-  "links": {
-    "Goodreads": "https://www.goodreads.com/book/show/51496.Dr_Jekyll_and_Mr_Hyde",
-    "Wikipedia": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
-  },
+  "wikipedia": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
   "blurb": "A message to other literary websites: stop spoiling books in the very first lines of your blurbs. Say the book has gothic and mystery elements, yes. But don't give away the actual mystery!\n(I suggest not clicking on any of the below links.)",
   "blurb2": "Evil Robert Louis Stevenson says: do murders, give into lust, and spoil books in book blurbs."
 }
