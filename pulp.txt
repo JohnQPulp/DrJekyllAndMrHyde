@@ -343,7 +343,7 @@ t=none;n:lanyon=Dr. Lanyon;e:lanyon=neutral;b=lanyon-dining;x:utterson=
 This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner. At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands.
 e:lanyon=happy;c=lanyon;v=100,125;z:lanyon=97,47,2
 
-The geniality, as was the way of the man, was somewhat theatrical to the eye; but it reposed on genuine feeling. For these two were old friends, old mates both at school and college, both thorough respectors of themselves and of each other, and, what does not always follow, men who thoroughly enjoyed each other’s company.
+The geniality, as was the way of the man, was somewhat theatrical to the eye; but it reposed on genuine feeling. For these two were old friends, old mates both at school and college, both thorough respecters of themselves and of each other, and, what does not always follow, men who thoroughly enjoyed each other’s company.
 c=
 
 After a little rambling talk, the lawyer led up to the subject which so disagreeably preoccupied his mind.
@@ -388,7 +388,7 @@ e:lanyon=neutral
 That was the amount of information that the lawyer carried back with him to the great, dark bed on which he tossed to and fro, until the small hours of the morning began to grow large.
 s=none;e:utterson=weary;b=utterson-bed
 
-It was a night of little ease to his toiling mind, toiling in mere darkness and beseiged by questions.
+It was a night of little ease to his toiling mind, toiling in mere darkness and besieged by questions.
 
 
 Six o’clock struck on the bells of the church that was so conveniently near to Mr. Utterson’s dwelling, and still he was digging at the problem.
@@ -1867,7 +1867,7 @@ s=none;e:poole=angry;b=action
 A dismal screech, as of mere animal terror, rang from the cabinet.
 e:hyde=fearful;b=think
 
-Up went the axe again, and again the panels crashed and the frame bounded; four times the blow fell; but the wood was tough and the fittings were of excellent workmanship; and it was not until the fifth, that the lock burst in sundar and the wreck of the door fell inwards on the carpet.<e>Here's Raskolnikov!</e>
+Up went the axe again, and again the panels crashed and the frame bounded; four times the blow fell; but the wood was tough and the fittings were of excellent workmanship; and it was not until the fifth, that the lock burst in sunder and the wreck of the door fell inwards on the carpet.<e>Here's Raskolnikov!</e>
 b=action
 
 The besiegers, appalled by their own riot and the stillness that had succeeded, stood back a little and peered in.
